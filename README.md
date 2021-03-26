@@ -1,2 +1,2 @@
 # QCkits
- toolkit for Q-Chem
+ toolkits for Q-Chem
