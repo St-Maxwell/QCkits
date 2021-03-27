@@ -1,18 +1,14 @@
 module QCkits
-    use iso_fortran_env
-    use qckits_error
+    use QCkits_global
+    use QCkits_error
     implicit none
     private
-    public :: fp
     public :: qckits_instance
     public :: initialize_qckits
-    
-    integer, parameter :: fp = real64
-        !! default real kind
 
     type :: qckits_t
         private
-        character(len=:), allocatable :: file
+        character(len=:), allocatable, public :: file
     contains
         private
         procedure, public :: load_file

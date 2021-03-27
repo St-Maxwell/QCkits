@@ -1,4 +1,4 @@
-module qckits_error
+module QCkits_error
     use iso_fortran_env, only: output_unit, error_unit
     implicit none
     private
@@ -25,4 +25,4 @@ contains
 
     end subroutine terminate
 
-end module qckits_error
+end module QCkits_error
