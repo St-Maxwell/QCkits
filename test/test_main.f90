@@ -2,6 +2,6 @@ program test
     use QCkits
 
     call initialize_qckits("xxxx")
-    write(*,*) qckits_instance%file
+    call qckits_instance%load_file()
 
 end program test
