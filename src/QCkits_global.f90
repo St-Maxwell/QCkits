@@ -1,8 +1,8 @@
 module QCkits_global
-    use iso_fortran_env, only: real64, output_unit, error_unit
+    use iso_fortran_env, only: real64, output_unit, input_unit, error_unit
     implicit none
     private
-    public :: fp, output_unit, error_unit
+    public :: fp, output_unit, input_unit, error_unit
     public :: optval
     
     integer, parameter :: fp = real64

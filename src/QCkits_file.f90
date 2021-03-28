@@ -13,6 +13,7 @@ module QCkits_file
         procedure, pass, public :: init => init_from_qckits
         procedure, pass, public :: open => open_file
         procedure, pass, public :: close => close_file
+        procedure, pass, public :: get_unit
         procedure, pass, public :: find => find_label
         procedure, pass, public :: find_next => find_next_label
     end type
@@ -22,7 +23,7 @@ contains
     subroutine init_from_qckits(this)
         class(QCkits_output), intent(inout) :: this
 
-        this%filename = QCkits_instance%file
+        this%filename = QCkits_instance%get_file()
 
     end subroutine init_from_qckits
 
@@ -41,6 +42,15 @@ contains
         close(this%fileunit)
 
     end subroutine close_file
+
+
+    function get_unit(this) result(unit)
+        class(QCkits_output), intent(in) :: this
+        integer :: unit
+
+        unit = this%fileunit
+
+    end function get_unit
 
 
     subroutine find_label(this, label, found)

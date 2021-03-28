@@ -1,7 +1,6 @@
 program test
-    use QCkits
+    use QCkits_main
 
-    call initialize_qckits("xxxx")
-    call qckits_instance%load_file()
+    call QCkits_run()
 
 end program test

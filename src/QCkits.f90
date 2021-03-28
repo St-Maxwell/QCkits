@@ -8,10 +8,11 @@ module QCkits
 
     type :: qckits_t
         private
-        character(len=:), allocatable, public :: file
+        character(len=:), allocatable :: file
     contains
         private
-        procedure, public :: load_file
+        procedure, pass, public :: load_file
+        procedure, pass, public :: get_file
     end type
 
     type(qckits_t), pointer :: qckits_instance => null()
@@ -22,8 +23,8 @@ contains
     subroutine initialize_qckits(file)
         character(len=*), intent(in) :: file
 
-        if (associated(qckits_instance)) call terminate(qckits_failure, &
-                                                    "Trying to initialize the initialized qckits_instance.")
+        if (associated(qckits_instance)) &
+            call terminate(qckits_failure, "Trying to initialize the initialized qckits_instance.")
 
         allocate(qckits_instance)
         qckits_instance%file = file
@@ -44,6 +45,13 @@ contains
 
     end subroutine load_file
 
+    
+    function get_file(this) result(file)
+        class(qckits_t), intent(in) :: this
+        character(len=:), allocatable :: file
 
+        file = trim(this%file)
+
+    end function get_file
 
 end module QCkits
