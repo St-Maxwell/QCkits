@@ -27,6 +27,8 @@ contains
         call main%add_option(sub_menu2, 2)
         call main%add_option(new_job(sub5, "this is sub5"), 5)
 
+        deallocate(main)
+
     end subroutine test_menu
 
 

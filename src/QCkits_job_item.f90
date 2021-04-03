@@ -2,7 +2,7 @@ module QCkits_job_item
     implicit none
     private
     public :: qckits_menu_t, new_job
-    
+
     type, abstract :: qckits_item_t
         !! the base class of QCkits working menu
         character(len=:), allocatable :: description
@@ -25,12 +25,15 @@ module QCkits_job_item
         type(item_list_node), pointer :: head => null()
     contains
         procedure, pass, public :: insert_item
+        final :: destruct_item_list
     end type
 
     type :: item_list_node
         integer :: index
         class(qckits_item_t), pointer :: item => null()
         class(item_list_node), pointer :: next => null()
+    contains
+        final :: destruct_item_list_node
     end type
 
 !===============================================================================
@@ -81,7 +84,6 @@ contains
 
     end subroutine run_menu
 
-
     subroutine add_menu_option_menu(this, menu, index)
         class(qckits_menu_t), intent(inout) :: this
         type(qckits_menu_t), intent(in), pointer :: menu
@@ -91,7 +93,6 @@ contains
 
     end subroutine add_menu_option_menu
 
-
     subroutine add_menu_option_job(this, job, index)
         class(qckits_menu_t), intent(inout) :: this
         type(qckits_job_t), intent(in), pointer :: job
@@ -100,7 +101,6 @@ contains
         call this%items%insert_item(job, index)
 
     end subroutine add_menu_option_job
-
 
     subroutine show_menu(this)
         class(qckits_menu_t), intent(inout) :: this
@@ -122,7 +122,6 @@ contains
 
     end function new_job
 
-
     subroutine run_job(this)
         !! do the concrete job
         class(qckits_job_t), intent(inout) :: this
@@ -141,15 +140,13 @@ contains
         !! locals
         type(item_list_node), pointer :: curr
         type(item_list_node), pointer :: new_item
-
         allocate(new_item)
         new_item%item => item
         new_item%index = index
 
         if (.not. associated(this%head)) then
             !! head is null
-            allocate(this%head)
-            this%head = new_item
+            this%head => new_item
             return
         end if
 
@@ -188,5 +185,31 @@ contains
 
     end subroutine insert_item
 
+
+    subroutine destruct_item_list(this)
+        type(item_list), intent(inout) :: this
+
+        !! locals
+        type(item_list_node), pointer :: curr
+
+        do
+            if (.not. associated(this%head%next)) exit
+            curr => this%head%next
+            deallocate(this%head)
+            this%head => curr
+        end do
+
+        deallocate(this%head)
+
+    end subroutine destruct_item_list
+
+    
+    subroutine destruct_item_list_node(this)
+        type(item_list_node), intent(inout) :: this
+
+        deallocate(this%item%description)
+        deallocate(this%item)
+
+    end subroutine destruct_item_list_node
 
 end module QCkits_job_item
