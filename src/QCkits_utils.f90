@@ -3,9 +3,9 @@ module QCkits_utils
     implicit none
     private
     public :: locate_label
-    
+
 contains
-    
+
     subroutine locate_label(status, unit, label, rewind, backspace, maxline)
         logical, intent(inout) :: status
         integer, intent(in) :: unit

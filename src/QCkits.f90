@@ -4,7 +4,7 @@ module QCkits
     implicit none
     private
     public :: qckits_instance
-    public :: initialize_qckits
+    public :: initialize_qckits, destory_qckits
 
     type :: qckits_t
         private
@@ -15,11 +15,11 @@ module QCkits
         procedure, pass, public :: get_file
     end type
 
-    type(qckits_t), pointer :: qckits_instance => null()
+    type(qckits_t), pointer, protected :: qckits_instance => null()
         !! singleton
 
 contains
-    
+
     subroutine initialize_qckits(file)
         character(len=*), intent(in) :: file
 
@@ -30,6 +30,13 @@ contains
         qckits_instance%file = file
 
     end subroutine initialize_qckits
+
+
+    subroutine destory_qckits()
+
+        deallocate(qckits_instance)
+
+    end subroutine destory_qckits
 
 
     subroutine load_file(this)
@@ -45,7 +52,7 @@ contains
 
     end subroutine load_file
 
-    
+
     function get_file(this) result(file)
         class(qckits_t), intent(in) :: this
         character(len=:), allocatable :: file

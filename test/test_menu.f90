@@ -3,9 +3,9 @@ module QCkits_test_menu
     implicit none
     private
     public :: test_menu
-    
+
 contains
-    
+
     subroutine test_menu()
         type(qckits_menu_t), pointer :: main
         type(qckits_menu_t), pointer :: sub_menu1
@@ -27,6 +27,8 @@ contains
         call main%add_option(sub_menu2, 2)
         call main%add_option(new_job(sub5, "this is sub5"), 5)
 
+        call main%run()
+
         deallocate(main)
 
     end subroutine test_menu
@@ -39,7 +41,7 @@ contains
     subroutine sub2()
         write(*,*) "sub2"
     end subroutine sub2
-    
+
     subroutine sub3()
         write(*,*) "sub3"
     end subroutine sub3

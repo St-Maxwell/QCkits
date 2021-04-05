@@ -1,4 +1,6 @@
 module QCkits_job_item
+    use QCkits_global, only: output_unit, input_unit
+    use QCkits_error, only: qckits_failure, terminate
     implicit none
     private
     public :: qckits_menu_t, new_job
@@ -21,14 +23,17 @@ module QCkits_job_item
 
     type :: item_list
         !! a sorted linked list
-        integer :: num_items = 0
+        private
         type(item_list_node), pointer :: head => null()
     contains
+        private
         procedure, pass, public :: insert_item
+        procedure, pass :: choose => choose_item
         final :: destruct_item_list
     end type
 
     type :: item_list_node
+        private
         integer :: index
         class(qckits_item_t), pointer :: item => null()
         class(item_list_node), pointer :: next => null()
@@ -39,6 +44,7 @@ module QCkits_job_item
 !===============================================================================
 
     type, extends(qckits_item_t) :: qckits_menu_t
+        private
         type(item_list) :: items
     contains
         private
@@ -75,14 +81,42 @@ contains
 
     end subroutine init_menu
 
+
     subroutine run_menu(this)
         !! print items
         !! and wait for input
         class(qckits_menu_t), intent(inout) :: this
 
-        call this%show()
+        !! locals
+        class(qckits_item_t), pointer :: choice
+        character(len=100) :: buffer
+        integer :: number
+        integer :: ierr
+
+        do
+            call this%show()
+
+            write(output_unit,"('Enter a number to select: ')",advance="no")
+            read(input_unit,*) buffer
+
+            !! if is q
+            if (buffer == 'q') exit
+
+            !! if is number
+            read(buffer,*,iostat=ierr) number
+
+            !! else
+            if (ierr /=0) cycle
+
+            choice => this%items%choose(number)
+            if (.not. associated(choice)) cycle
+
+            call choice%run()
+
+        end do
 
     end subroutine run_menu
+
 
     subroutine add_menu_option_menu(this, menu, index)
         class(qckits_menu_t), intent(inout) :: this
@@ -93,6 +127,7 @@ contains
 
     end subroutine add_menu_option_menu
 
+
     subroutine add_menu_option_job(this, job, index)
         class(qckits_menu_t), intent(inout) :: this
         type(qckits_job_t), intent(in), pointer :: job
@@ -102,10 +137,24 @@ contains
 
     end subroutine add_menu_option_job
 
+
     subroutine show_menu(this)
         class(qckits_menu_t), intent(inout) :: this
 
-        write(*,*) this%description
+        !! locals
+        type(item_list_node), pointer :: next
+
+        write(output_unit,"('')")
+        write(output_unit,"('=== ',g0,' ===')") this%description
+
+        next => this%items%head
+        do
+            if (.not. associated(next)) exit
+            write(output_unit,"(' [',g0,'] ',g0)") next%index, next%item%description
+            next => next%next
+        end do
+
+        write(output_unit,"('')")
 
     end subroutine show_menu
 
@@ -122,11 +171,12 @@ contains
 
     end function new_job
 
+
     subroutine run_job(this)
         !! do the concrete job
         class(qckits_job_t), intent(inout) :: this
 
-        write(*,*) this%description
+        call this%job()
 
     end subroutine run_job
 
@@ -172,7 +222,7 @@ contains
 
                 else if (index == curr%next%index .or. index == curr%index) then
                     deallocate(new_item)
-                    stop
+                    call terminate(qckits_failure, "Menu index conflict")
                 end if
                 curr => curr%next
             end do
@@ -180,10 +230,32 @@ contains
             curr%next => new_item
         else
             deallocate(new_item)
-            stop
+            call terminate(qckits_failure, "Menu index conflict")
         end if
 
     end subroutine insert_item
+
+
+    function choose_item(this, index) result(choice)
+        class(item_list), intent(in) :: this
+        integer, intent(in) :: index
+        class(qckits_item_t), pointer :: choice
+
+        !! locals
+        type(item_list_node), pointer :: next
+
+        choice => null()
+        next => this%head
+        do
+            if (.not. associated(next)) exit
+            if (next%index == index) then
+                choice => next%item
+                return
+            end if
+            next => next%next
+        end do
+
+    end function choose_item
 
 
     subroutine destruct_item_list(this)
@@ -203,7 +275,7 @@ contains
 
     end subroutine destruct_item_list
 
-    
+
     subroutine destruct_item_list_node(this)
         type(item_list_node), intent(inout) :: this
 

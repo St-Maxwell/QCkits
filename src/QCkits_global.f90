@@ -4,7 +4,7 @@ module QCkits_global
     private
     public :: fp, output_unit, input_unit, error_unit
     public :: optval
-    
+
     integer, parameter :: fp = real64
         !! default real kind
 
@@ -16,7 +16,7 @@ module QCkits_global
     end interface
 
 contains
-    
+
 !===========================================================
 ! from https://github.com/fortran-lang/stdlib/issues/62
 ! return default value if opt is not presented
