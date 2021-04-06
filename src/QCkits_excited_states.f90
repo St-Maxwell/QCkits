@@ -49,6 +49,7 @@ contains
 
         if (.not. found) call terminate(qckits_failure, "Excited states not found")
 
+        write(output_unit,"('Found record, and begin working.')")
         !! now read and output
         file_out = "new.out"
 
