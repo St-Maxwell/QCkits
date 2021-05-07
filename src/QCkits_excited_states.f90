@@ -5,16 +5,83 @@ module QCkits_excited_state
     use QCkits_file, only: qchem_file
     implicit none
     private
-    public :: QCkits_simplify_cis_ampl_print
-    public :: simplify_cis_ampl_print
+    public :: QCkits_extract_excitation_energy, &
+              QCkits_simplify_cis_ampl_print
+    public :: extract_excitation_energy, &
+              simplify_cis_ampl_print
 
-    integer, parameter :: simplify_cis_ampl_print = 1
-
+    integer, parameter :: extract_excitation_energy = 1
+    integer, parameter :: simplify_cis_ampl_print = 2
 
     integer, parameter :: cis_wavefunction = 1
     integer, parameter :: rpa_wavefunction = 2
 
 contains
+
+    subroutine QCkits_extract_excitation_energy()
+        !! extract excitation energy with corresponding multiplicity
+
+        !! locals
+        real(kind=fp), dimension(:), allocatable :: ex_energy
+        character(len=10), dimension(:), allocatable :: multiplicity
+        character(len=100) :: buffer
+        integer :: istate, istate_tmp
+        real(kind=fp) :: ex_energy_tmp
+        character(len=10) :: multiplicity_tmp
+        integer :: wf_type
+        logical :: found
+
+        !! wait for input
+        write(output_unit,"('Select wavefunction (1: CIS, 2: RPA): ')", advance="no")
+        read(input_unit,*) wf_type
+
+        call qchem_file%open()
+
+        select case (wf_type)
+        case (cis_wavefunction)
+            call qchem_file%find("TDDFT/TDA Excitation Energies", found)
+        case (rpa_wavefunction)
+            call qchem_file%find("TDDFT Excitation Energies", found)
+        case default
+            call terminate(qckits_failure, "Unknown excited state wavefunction")
+        end select
+
+        if (.not. found) call terminate(qckits_failure, "Excited states not found")
+
+        ex_energy = [real(kind=fp) ::]
+        multiplicity = [character(len=10) ::]
+
+        write(output_unit,"('Excitation Energy (eV)     Multiplicity')")
+        istate = 0
+        do
+            call locate_label(found, qchem_file%get_unit(), "Excited state", rewind=.false.)
+
+            if (.not. found) exit
+
+            read(qchem_file%get_unit(),"(A)") buffer
+            read(buffer(15:18),*) istate_tmp
+
+            if (istate_tmp < istate) exit
+
+            read(buffer(45:54),*) ex_energy_tmp
+
+            read(qchem_file%get_unit(),"(A)") buffer
+            read(qchem_file%get_unit(),"(A)") buffer
+            read(buffer,*) multiplicity_tmp, multiplicity_tmp
+
+            write(output_unit,"(F14.4,15X,A)") ex_energy_tmp, trim(multiplicity_tmp)
+
+            ex_energy = [ex_energy, ex_energy_tmp]
+            multiplicity = [multiplicity, multiplicity_tmp]
+
+            istate = istate + 1
+
+        end do
+        write(output_unit,"('')")
+
+        call qchem_file%close()
+
+    end subroutine QCkits_extract_excitation_energy
 
     subroutine QCkits_simplify_cis_ampl_print()
         !! read orbital pairs contribution in excited state,
@@ -32,11 +99,18 @@ contains
         integer :: istate
         integer :: u
 
+        !! wait for input
         write(output_unit,"('Select wavefunction (1: CIS, 2: RPA): ')", advance="no")
         read(input_unit,*) wf_type
         write(output_unit,"('Threshold (values greater than 0.001 * threshold will be printed): ')", &
                            advance="no")
         read(input_unit,*) threshold
+
+        call qchem_file%open()
+
+        !! locate and check
+        !! find cis_n_roots
+
 
         select case (wf_type)
             case (cis_wavefunction)
@@ -49,8 +123,9 @@ contains
 
         if (.not. found) call terminate(qckits_failure, "Excited states not found")
 
-        write(output_unit,"('Found record, and begin working.')")
+
         !! now read and output
+        write(output_unit,"('Found record, and begin working.')")
         file_out = "new.out"
 
         open(newunit=u, file=file_out)
@@ -90,7 +165,9 @@ contains
 
             num_states = istate
         end do
+
         close(u)
+        call qchem_file%close()
 
     end subroutine QCkits_simplify_cis_ampl_print
 

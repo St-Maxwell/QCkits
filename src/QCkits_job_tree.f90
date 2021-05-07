@@ -25,6 +25,7 @@ contains
     subroutine init_menu()
         allocate(qckits_main_menu)
         call qckits_main_menu%init("QCkits Main Menu")
+        call build_main_menu()
     end subroutine init_menu
 
 
@@ -51,6 +52,9 @@ contains
 
         allocate(excited_state_menu)
         call excited_state_menu%init("Excited State Analysis and Utilities")
+        call excited_state_menu%add_option(new_job(QCkits_extract_excitation_energy, &
+                                           "Extract Excitation Energy"), &
+                                           index=extract_excitation_energy)
         call excited_state_menu%add_option(new_job(QCkits_simplify_cis_ampl_print, &
                                            "Simplify CIS (and RPA) Amplitude Print"), &
                                            index=simplify_cis_ampl_print)

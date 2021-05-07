@@ -24,7 +24,7 @@ contains
         character(len=*), intent(in) :: file
 
         if (associated(qckits_instance)) &
-            call terminate(qckits_failure, "Trying to initialize the initialized qckits_instance.")
+            call terminate(qckits_failure, "Initializing the initialized qckits_instance.")
 
         allocate(qckits_instance)
         qckits_instance%file = file

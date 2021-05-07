@@ -17,6 +17,7 @@ contains
         call initialize_qckits(file)
         call qckits_instance%load_file()
 
+        call initialize_qchem_file()
 
         !! if interactive
         call QCkits_interactive()
@@ -40,6 +41,13 @@ contains
 
 
     subroutine QCkits_interactive()
+        use QCkits_job_tree
+
+        call init_menu()
+
+        call qckits_main_menu%run()
+
+        call destroy_menu()
 
     end subroutine QCkits_interactive
 
