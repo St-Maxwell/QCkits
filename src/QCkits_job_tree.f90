@@ -2,7 +2,7 @@ module QCkits_job_tree
     use QCkits_job_item
     !!
     use QCkits_excited_state
-    !!
+    use QCkits_properties
     implicit none
     private
     public :: qckits_main_menu, init_menu, destroy_menu
@@ -41,8 +41,10 @@ contains
     subroutine build_main_menu()
 
         call build_excited_menu()
+        call build_properties_menu()
 
         call qckits_main_menu%add_option(excited_state_menu, 1)
+        call qckits_main_menu%add_option(properties_menu, 2)
 
     end subroutine build_main_menu
 
@@ -61,6 +63,16 @@ contains
 
     end subroutine build_excited_menu
 
+
+    subroutine build_properties_menu()
+
+        allocate(properties_menu)
+        call properties_menu%init("Properties Analysis and Utilities")
+        call properties_menu%add_option(new_job(QCkits_extract_SOC, &
+                                        "Extract SOC matrix elements"), &
+                                        index=extract_SOC)
+
+    end subroutine build_properties_menu
 
 !===============================================================================
 ! the third layer

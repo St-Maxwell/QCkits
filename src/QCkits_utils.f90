@@ -1,22 +1,28 @@
 module QCkits_utils
-    use QCkits_global, only: output_unit, optval
+    use QCkits_global, only: output_unit, optval, fp
     implicit none
     private
-    public :: locate_label
+    public :: locate_label, lower_case, print_matrix, remove_char
     public :: progress_bar_t
+    public :: fill_lower_triangular
 
     type :: progress_bar_t
         private
         integer :: length = 40
         integer :: total_times
     contains
-        procedure, pass, public :: init
-        procedure, pass, public :: update
+        procedure, pass, public :: init => progress_bar_init
+        procedure, pass, public :: update => progress_bar_update
     end type
+
+    interface print_matrix
+        module procedure :: print_matrix_real
+        module procedure :: print_matrix_cmplx
+    end interface print_matrix
 
 contains
 
-    subroutine locate_label(status, unit, label, rewind, backspace, maxline)
+    subroutine locate_label(status, unit, label, rewind, backspace, maxline, matchcase)
         logical, intent(inout) :: status
         integer, intent(in) :: unit
         character(len=*), intent(in) :: label
@@ -25,9 +31,12 @@ contains
         logical, intent(in), optional :: backspace
             !! default value is .true.
         integer, intent(in), optional :: maxline
+        logical, intent(in), optional :: matchcase
+            !! default is .true.
 
         !! locals
         character(len=100) :: buffer
+        character(len=:), allocatable :: label_
         integer :: ierr
         integer :: i
 
@@ -36,11 +45,18 @@ contains
         !! rewind is default
         if (optval(rewind, .true.)) rewind(unit)
 
+        if (.not. optval(matchcase, .true.)) then
+            label_ = lower_case(label)
+        else
+            label_ = label
+        end if
+
         if (present(maxline)) then
             do i = 1, maxline
                 read(unit,"(A)",iostat=ierr) buffer
                 if (ierr /= 0) return ! return and let locate_label .false.
-                if (index(buffer, label) /= 0) exit ! found
+                if (.not. optval(matchcase, .true.)) buffer = lower_case(buffer)
+                if (index(buffer, label_) /= 0) exit ! found
             end do
             !! loop stops, label not found, and status remains .false.
             return
@@ -48,7 +64,8 @@ contains
             do
                 read(unit,"(A)",iostat=ierr) buffer
                 if (ierr /= 0) return ! return and let locate_label .false.
-                if (index(buffer, label) /= 0) exit ! found
+                if (.not. optval(matchcase, .true.)) buffer = lower_case(buffer)
+                if (index(buffer, label_) /= 0) exit ! found
             end do
         end if
 
@@ -59,18 +76,85 @@ contains
 
     end subroutine locate_label
 
+
+    function lower_case(string)
+        character(len=*), intent(in) :: string
+        character(len=:), allocatable :: lower_case
+
+        !! locals
+        integer :: code
+        integer :: i
+
+        allocate(lower_case, source=string)
+        do i = 1, len(string)
+            code = iachar(string(i:i))
+            select case (code)
+            case (65:90)
+                lower_case(i:i) = char(code + 32)
+            end select
+        end do
+
+    end function lower_case
+
+
+    subroutine remove_char(string, remove_list)
+        character(len=*), intent(inout) :: string
+        character(len=*), intent(in) :: remove_list
+
+        !! locals
+        integer :: i
+
+        do i = 1, len(string)
+            if (index(remove_list, string(i:i)) /= 0) string(i:i) = ' '
+        end do
+
+    end subroutine remove_char
+
+
+    subroutine print_matrix_real(mat, unit, title)
+        real(kind=fp), dimension(:,:), intent(in) :: mat
+        integer, intent(in) :: unit
+        character(len=*), intent(in), optional :: title
+
+        !! locals
+        integer :: i
+
+        if (present(title)) write(unit,"(A)") title
+        do i = 1, size(mat, dim=1)
+            write(unit, "(*(F15.9,1X))") mat(i,:)
+        end do
+        write(unit,*)
+    end subroutine print_matrix_real
+
+
+    subroutine print_matrix_cmplx(mat, unit, title)
+        complex(kind=fp), dimension(:,:), intent(in) :: mat
+        integer, intent(in) :: unit
+        character(len=*), intent(in), optional :: title
+
+        !! locals
+        integer :: i
+
+        if (present(title)) write(unit,"(A)") title
+        do i = 1, size(mat, dim=1)
+            write(unit, "(*(:,' (',F15.9,',',F15.9,') '))") mat(i,:)
+        end do
+        write(unit,*)
+
+    end subroutine print_matrix_cmplx
+
 !===============================================================================
 
-    subroutine init(this, times)
+    subroutine progress_bar_init(this, times)
         class(progress_bar_t), intent(inout) :: this
         integer, intent(in) :: times
 
         this%total_times = times
 
-    end subroutine init
+    end subroutine progress_bar_init
 
 
-    subroutine update(this, current)
+    subroutine progress_bar_update(this, current)
         class(progress_bar_t), intent(inout) :: this
         integer, intent(in) :: current
 
@@ -101,6 +185,22 @@ contains
             write(output_unit,"(A)") bar
         end if
 
-    end subroutine update
+    end subroutine progress_bar_update
+
+!===============================================================================
+
+    subroutine fill_lower_triangular(mat)
+        complex(kind=fp), dimension(:,:), intent(inout) :: mat
+
+        !! locals
+        integer :: i, j
+
+        do i = 1, size(mat, dim=1)
+            do j = i + 1, size(mat, dim=2)
+                mat(j,i) = mat(i,j)
+            end do
+        end do
+
+    end subroutine fill_lower_triangular
 
 end module QCkits_utils

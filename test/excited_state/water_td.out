@@ -2,82 +2,89 @@
      A Quantum Leap Into The Future Of Chemistry
 
 
- Q-Chem 5.3 (devel), Q-Chem, Inc., Pleasanton, CA (2020)
+ Q-Chem 5.4 (devel), Q-Chem, Inc., Pleasanton, CA (2021)
 
- Yihan Shao,  Zhengting Gan,  E. Epifanovsky,  A. T. B. Gilbert,  M. Wormit,  
- J. Kussmann,  A. W. Lange,  A. Behn,  Jia Deng,  Xintian Feng,  D. Ghosh,  
- M. Goldey,  P. R. Horn,  L. D. Jacobson,  I. Kaliman,  T. Kus,  A. Landau,  
- Jie Liu,  E. I. Proynov,  R. M. Richard,  R. P. Steele,  E. J. Sundstrom,  
- H. L. Woodcock III,  P. M. Zimmerman,  D. Zuev,  B. Alam,  B. Albrecht,  
- A. Aldossary,  E. Alguire,  S. A. Baeppler,  D. Barton,  Z. Benda,  
- Y. A. Bernard,  E. J. Berquist,  K. B. Bravaya,  H. Burton,  K. Carter-Fenk,  
- D. Casanova,  Chun-Min Chang,  Yunqing Chen,  A. Chien,  K. D. Closser,  
- M. P. Coons,  S. Coriani,  S. Dasgupta,  A. L. Dempwolff,  M. Diedenhofen,  
- Hainam Do,  R. G. Edgar,  Po-Tung Fang,  S. Faraji,  S. Fatehi,  
- Qingguo Feng,  J. Fosso-Tande,  J. Gayvert,  Qinghui Ge,  A. Ghysels,  
- G. Gidofalvi,  J. Gomes,  J. Gonthier,  S. Gulania,  A. Gunina,  D. Hait,  
- M. W. D. Hanson-Heine,  S. Hammes-Schiffer,  P. H. P. Harbach,  
- A. W. Hauser,  M. F. Herbst,  J. E. Herr,  E. G. Hohenstein,  Z. C. Holden,  
- S. Houck,  Kerwin Hui,  B. C. Huynh,  M. Ivanov,  T.-C. Jagau,  Hyunjun Ji,  
- B. Kaduk,  K. Khistyaev,  Jaehoon Kim,  P. Klunzinger,  K. Koh,  
- D. Kosenkov,  L. Koulias,  T. Kowalczyk,  C. M. Krauter,  A. Kunitsa,  
- Ka Un Lao,  A. Laurent,  K. V. Lawler,  Joonho Lee,  D. Lefrancois,  
- S. Lehtola,  D. S. Levine,  Yi-Pei Li,  You-Sheng Lin,  Fenglai Liu,  
- Kuan-Yu Liu,  E. Livshits,  M. Loipersberger,  A. Luenser,  A. Manjanath,  
- P. Manohar,  E. Mansoor,  S. F. Manzer,  Shan-Ping Mao,  Yuezhi Mao,  
- N. Mardirossian,  A. V. Marenich,  T. Markovich,  L. A. Martinez-Martinez,  
- S. A. Maurer,  N. J. Mayhall,  S. C. McKenzie,  J.-M. Mewes,  P. Morgante,  
- A. F. Morrison,  J. W. Mullinax,  K. Nanda,  T. S. Nguyen-Beck,  
- R. Olivares-Amaya,  K. J. Oosterbaan,  J. A. Parkhill,  S. K. Paul,  
- F. Pavosevic,  Zheng Pei,  T. M. Perrine,  F. Plasser,  P. Pokhilko,  
- S. Prager,  A. Prociuk,  E. Ramos,  B. Rana,  D. R. Rehn,  F. Rob,  
- E. Rossomme,  M. Scheurer,  M. Schneider,  N. Sergueev,  S. M. Sharada,  
- S. Sharma,  W. Skomorowski,  D. W. Small,  T. Stauch,  C. J. Stein,  
- T. Stein,  Yu-Chuan Su,  S. P. Veccham,  Zhen Tao,  A. J. W. Thom,  
- A. Tkatchenko,  T. Tsuchimochi,  N. M. Tubman,  L. Vogt,  M. L. Vidal,  
- O. Vydrov,  M. A. Watson,  J. Wenzel,  M. de Wergifosse,  T. A. Wesolowski,  
- A. White,  J. Witte,  A. Yamada,  Jun Yang,  K. Yao,  S. Yeganeh,  
- S. R. Yost,  Zhi-Qiang You,  A. Zech,  Igor Ying Zhang,  Xing Zhang,  
- Yan Zhao,  Ying Zhu,  B. R. Brooks,  G. K. L. Chan,  C. J. Cramer,  
- M. S. Gordon,  W. J. Hehre,  A. Klamt,  M. W. Schmidt,  C. D. Sherrill,  
- D. G. Truhlar,  A. Aspuru-Guzik,  R. Baer,  A. T. Bell,  N. A. Besley,  
- Jeng-Da Chai,  A. E. DePrince, III,  R. A. DiStasio Jr.,  A. Dreuw,  
- B. D. Dunietz,  T. R. Furlani,  Chao-Ping Hsu,  Yousung Jung,  Jing Kong,  
- D. S. Lambrecht,  WanZhen Liang,  C. Ochsenfeld,  V. A. Rassolov,  
- L. V. Slipchenko,  J. E. Subotnik,  T. Van Voorhis,  J. M. Herbert,  
- A. I. Krylov,  P. M. W. Gill,  M. Head-Gordon
+ E. Epifanovsky,  A. T. B. Gilbert,  Xintian Feng,  Joonho Lee,  Yuezhi Mao,  
+ N. Mardirossian,  P. Pokhilko,  A. White,  M. Wormit,  M. P. Coons,  
+ A. L. Dempwolff,  Zhengting Gan,  D. Hait,  P. R. Horn,  L. D. Jacobson,  
+ I. Kaliman,  J. Kussmann,  A. W. Lange,  Ka Un Lao,  D. S. Levine,  Jie Liu,  
+ S. C. McKenzie,  A. F. Morrison,  K. Nanda,  F. Plasser,  D. R. Rehn,  
+ M. L. Vidal,  Zhi-Qiang You,  B. Alam,  B. Albrecht,  A. Aldossary,  
+ E. Alguire,  J. H. Andersen,  D. Barton,  K. Begam,  A. Behn,  
+ Y. A. Bernard,  E. J. Berquist,  H. Burton,  A. Carreras,  K. Carter-Fenk,  
+ R. Chakraborty,  A. Chien,  K. D. Closser,  V. Cofer-Shabica,  S. Dasgupta,  
+ Jia Deng,  M. Diedenhofen,  Hainam Do,  S. Ehlert,  Po-Tung Fang,  
+ S. Fatehi,  Qingguo Feng,  J. Gayvert,  Qinghui Ge,  G. Gidofalvi,  
+ M. Goldey,  J. Gomes,  C. Gonzalez-Espinoza,  S. Gulania,  A. Gunina,  
+ M. W. D. Hanson-Heine,  P. H. P. Harbach,  A. W. Hauser,  M. F. Herbst,  
+ M. Hernandez Vera,  M. Hodecker,  Z. C. Holden,  S. Houck,  Xunkun Huang,  
+ Kerwin Hui,  B. C. Huynh,  M. Ivanov,  Hyunjun Ji,  Hanjie Jiang,  B. Kaduk,  
+ S. Kaehler,  K. Khistyaev,  Jaehoon Kim,  P. Klunzinger,  Z. Koczor-Benda,  
+ Joong Hoon Koh,  D. Kosenkov,  L. Koulias,  T. Kowalczyk,  C. M. Krauter,  
+ K. Kue,  A. Kunitsa,  T. Kus,  A. Landau,  K. V. Lawler,  D. Lefrancois,  
+ S. Lehtola,  Rain Li,  Yi-Pei Li,  Jiashu Liang,  M. Liebenthal,  
+ Hung-Hsuan Lin,  You-Sheng Lin,  Fenglai Liu,  Kuan-Yu Liu,  
+ M. Loipersberger,  A. Luenser,  A. Manjanath,  P. Manohar,  E. Mansoor,  
+ S. F. Manzer,  Shan-Ping Mao,  A. V. Marenich,  T. Markovich,  S. Mason,  
+ S. A. Maurer,  P. F. McLaughlin,  M. F. S. J. Menger,  J.-M. Mewes,  
+ S. A. Mewes,  P. Morgante,  J. W. Mullinax,  T. S. Nguyen-Beck,  
+ K. J. Oosterbaan,  G. Paran,  Alexander C. Paul,  Suranjan K. Paul,  
+ F. Pavosevic,  Zheng Pei,  S. Prager,  E. I. Proynov,  E. Ramos,  B. Rana,  
+ A. E. Rask,  A. Rettig,  R. M. Richard,  F. Rob,  E. Rossomme,  T. Scheele,  
+ M. Scheurer,  M. Schneider,  N. Sergueev,  S. M. Sharada,  W. Skomorowski,  
+ D. W. Small,  E. J. Sundstrom,  T. Stauch,  C. J. Stein,  Yu-Chuan Su,  
+ S. P. Veccham,  Zhen Tao,  T. Tsuchimochi,  N. M. Tubman,  O. Vydrov,  
+ J. Wenzel,  M. de Wergifosse,  J. Witte,  A. Yamada,  K. Yao,  S. Yeganeh,  
+ S. R. Yost,  A. Zech,  Igor Ying Zhang,  Xing Zhang,  Yu Zhang,  Ying Zhu,  
+ D. Zuev,  A. Aspuru-Guzik,  A. T. Bell,  N. A. Besley,  K. B. Bravaya,  
+ B. R. Brooks,  D. Casanova,  Jeng-Da Chai,  S. Coriani,  C. J. Cramer,  
+ A. E. DePrince, III,  R. A. DiStasio Jr.,  A. Dreuw,  B. D. Dunietz,  
+ T. R. Furlani,  W. A. Goddard III,  S. Grimme,  S. Hammes-Schiffer,  
+ T. Head-Gordon,  W. J. Hehre,  Chao-Ping Hsu,  T.-C. Jagau,  Yousung Jung,  
+ A. Klamt,  Jing Kong,  D. S. Lambrecht,  WanZhen Liang,  N. J. Mayhall,  
+ C. W. McCurdy,  J. B. Neaton,  C. Ochsenfeld,  J. A. Parkhill,  R. Peverati,  
+ V. A. Rassolov,  Yihan Shao,  L. V. Slipchenko,  R. P. Steele,  
+ J. E. Subotnik,  A. J. W. Thom,  A. Tkatchenko,  D. G. Truhlar,  
+ T. Van Voorhis,  T. A. Wesolowski,  K. B. Whaley,  H. L. Woodcock III,  
+ P. M. Zimmerman,  S. Faraji,  P. M. W. Gill,  M. Head-GordonJ. M. Herbert,  
+ A. I. Krylov
 
  Contributors to earlier versions of Q-Chem not listed above: 
- R. D. Adamson,  B. Austin,  J. Baker,  G. J. O. Beran,  K. Brandhorst,  
- S. T. Brown,  E. F. C. Byrd,  A. K. Chakraborty,  C.-L. Cheng,  
+ R. D. Adamson,  B. Austin,  R. Baer,  J. Baker,  G. J. O. Beran,  
+ K. Brandhorst,  S. T. Brown,  E. F. C. Byrd,  A. K. Chakraborty,  
+ G. K. L. Chan,  Chun-Min Chang,  Yunqing Chen,  C.-L. Cheng,  
  Siu Hung Chien,  D. M. Chipman,  D. L. Crittenden,  H. Dachsel,  
- R. J. Doerksen,  A. D. Dutoi,  L. Fusti-Molnar,  W. A. Goddard III,  
- A. Golubeva-Zadorozhnaya,  S. R. Gwaltney,  G. Hawkins,  A. Heyden,  
- S. Hirata,  G. Kedziora,  F. J. Keil,  C. Kelley,  Jihan Kim,  R. A. King,  
- R. Z. Khaliullin,  P. P. Korambath,  W. Kurlancheek,  A. M. Lee,  M. S. Lee,  
- S. V. Levchenko,  Ching Yeh Lin,  D. Liotard,  R. C. Lochan,  I. Lotan,  
- P. E. Maslen,  N. Nair,  D. P. O'Neill,  D. Neuhauser,  E. Neuscamman,  
- C. M. Oana,  R. Olson,  B. Peters,  R. Peverati,  P. A. Pieniazek,  
- Y. M. Rhee,  J. Ritchie,  M. A. Rohrdanz,  E. Rosta,  N. J. Russ,  
- H. F. Schaefer III,  N. E. Schultz,  N. Shenvi,  A. C. Simmonett,  A. Sodt,  
- D. Stuck,  K. S. Thanthiriwatte,  V. Vanovschi,  Tao Wang,  A. Warshel,  
- C. F. Williams,  Q. Wu,  X. Xu,  W. Zhang
+ R. J. Doerksen,  A. D. Dutoi,  R. G. Edgar,  J. Fosso-Tande,  
+ L. Fusti-Molnar,  D. Ghosh,  A. Ghysels,  A. Golubeva-Zadorozhnaya,  
+ J. Gonthier,  M. S. Gordon,  S. R. Gwaltney,  G. Hawkins,  J. E. Herr,  
+ A. Heyden,  S. Hirata,  E. G. Hohenstein,  G. Kedziora,  F. J. Keil,  
+ C. Kelley,  Jihan Kim,  R. A. King,  R. Z. Khaliullin,  P. P. Korambath,  
+ W. Kurlancheek,  A. Laurent,  A. M. Lee,  M. S. Lee,  S. V. Levchenko,  
+ Ching Yeh Lin,  D. Liotard,  E. Livshits,  R. C. Lochan,  I. Lotan,  
+ L. A. Martinez-Martinez,  P. E. Maslen,  N. Nair,  D. P. O'Neill,  
+ D. Neuhauser,  E. Neuscamman,  C. M. Oana,  R. Olivares-Amaya,  R. Olson,  
+ T. M. Perrine,  B. Peters,  P. A. Pieniazek,  A. Prociuk,  Y. M. Rhee,  
+ J. Ritchie,  M. A. Rohrdanz,  E. Rosta,  N. J. Russ,  H. F. Schaefer III,  
+ M. W. Schmidt,  N. E. Schultz,  S. Sharma,  N. Shenvi,  C. D. Sherrill,  
+ A. C. Simmonett,  A. Sodt,  T. Stein,  D. Stuck,  K. S. Thanthiriwatte,  
+ V. Vanovschi,  L. Vogt,  Tao Wang,  A. Warshel,  M. A. Watson,  
+ C. F. Williams,  Q. Wu,  X. Xu,  Jun Yang,  W. Zhang,  Yan Zhao
 
  Please cite Q-Chem as follows:
  Y. Shao et al., Mol. Phys. 113, 184-215 (2015)
  DOI: 10.1080/00268976.2014.952696
 
- Q-Chem 5.3.2 for Intel X86 EM64T Linux
+ Q-Chem 5.4.0 for Intel X86 EM64T Linux
 
  Parts of Q-Chem use Armadillo 9.800.1 (Horizon Scraper).
  http://arma.sourceforge.net/
 
- Q-Chem begins on Sat Mar 27 20:39:21 2021  
+ Q-Chem begins on Thu Apr 29 16:11:30 2021  
 
 Host: Console
 0
 
-     Scratch files written to /public/home/huangxk/scratch/huangxk/qchem16469//
+     Scratch files written to /public/home/huangxk/scratch/huangxk/qchem24549//
 Processing $rem in /public/home/huangxk/qchem/config/preferences:
 Processing $rem in /public/home/huangxk/.qchemrc:
 
@@ -97,10 +104,10 @@ $rem
 method pbe0
 basis def2-SV(P)
 cis_n_roots 5
-cis_singlets true
-cis_triplets true
-rpa true
-cis_ampl_print 1
+rpa 2
+max_cis_cycles 60
+cis_ampl_print -1
+calc_soc true
 $end
 
 --------------------------------------------------------------
@@ -150,6 +157,11 @@ $end
  Exchange:     0.2500 Hartree-Fock + 0.7500 PBE
  Correlation:  1.0000 PBE
  Using SG-1 standard quadrature grid
+ using 8 threads for integral computing
+ -------------------------------------------------------
+ OpenMP Integral computing Module                
+ Release: version 1.0, May 2013, Q-Chem Inc. Pittsburgh 
+ -------------------------------------------------------
  A restricted SCF calculation will be
  performed using DIIS
  SCF converges when DIIS error is below 1.0e-08
@@ -166,157 +178,11 @@ $end
     8     -76.2541837219      6.75e-08  
     9     -76.2541837219      6.63e-09  Convergence criterion met
  ---------------------------------------
- SCF time:   CPU 0.54s  wall 1.00s 
+ SCF time:   CPU 2.49s  wall 1.00s 
  SCF   energy in the final basis set =      -76.2541837219
  Total energy in the final basis set =      -76.2541837219
 
- Direct TDDFT/TDA calculation will be performed
- Exchange:     0.2500 Hartree-Fock + 0.7500 PBE
- Correlation:  1.0000 PBE
- Using SG-1 standard quadrature grid
- Triplet excitation energies requested
- Singlet excitation energies requested
  CIS energy converged when residual is below 10e- 6
- ---------------------------------------------------
- Iter    Rts Conv    Rts Left    Ttl Dev     Max Dev
- ---------------------------------------------------
-   1         0           5      0.027981    0.006251
-   2         0           5      0.002627    0.000984
-   3         0           5      0.000226    0.000145
-   4         2           3      0.000016    0.000012
-   5         5           0      0.000003    0.000001    Roots Converged
- ---------------------------------------------------
- Triplets done: starting singlet calculation
- ---------------------------------------------------
- Iter    Rts Conv    Rts Left    Ttl Dev     Max Dev
- ---------------------------------------------------
-   6         0           5      0.033064    0.012812
-   7         0           5      0.003562    0.001668
-   8         0           5      0.000232    0.000150
-   9         3           2      0.000014    0.000012
-  10         4           1      0.000003    0.000001
-  11         5           0      0.000002    0.000001    Roots Converged
- ---------------------------------------------------
-
- ---------------------------------------------------
-         TDDFT/TDA Excitation Energies              
- ---------------------------------------------------
-
- Excited state   1: excitation energy (eV) =    6.7856
- Total energy for state  1:                   -76.00481826 au
-    Multiplicity: Triplet
-    Trans. Mom.:  0.0000 X   0.0000 Y   0.0000 Z
-    Strength   :     0.0000000000
-    D(    2) --> V(    5) amplitude = -0.0142
-    D(    5) --> V(    1) amplitude =  0.9970
-    D(    5) --> V(    4) amplitude =  0.0675
-    D(    5) --> V(    8) amplitude =  0.0321
-
- Excited state   2: excitation energy (eV) =    7.5284
- Total energy for state  2:                   -75.97751851 au
-    Multiplicity: Singlet
-    Trans. Mom.:  0.0000 X   0.2771 Y   0.0000 Z
-    Strength   :     0.0141667866
-    D(    5) --> V(    1) amplitude =  0.9994
-    D(    5) --> V(    4) amplitude =  0.0178
-    D(    5) --> V(    6) amplitude = -0.0150
-    D(    5) --> V(    8) amplitude =  0.0170
-
- Excited state   3: excitation energy (eV) =    8.7410
- Total energy for state  3:                   -75.93295935 au
-    Multiplicity: Triplet
-    Trans. Mom.:  0.0000 X   0.0000 Y   0.0000 Z
-    Strength   :     0.0000000000
-    D(    2) --> V(    1) amplitude =  0.0346
-    D(    2) --> V(    4) amplitude =  0.0169
-    D(    3) --> V(    2) amplitude =  0.0759
-    D(    3) --> V(    3) amplitude =  0.0240
-    D(    4) --> V(    1) amplitude =  0.9931
-    D(    4) --> V(    4) amplitude =  0.0703
-    D(    4) --> V(    8) amplitude =  0.0241
-
- Excited state   4: excitation energy (eV) =    8.8471
- Total energy for state  4:                   -75.92905972 au
-    Multiplicity: Triplet
-    Trans. Mom.:  0.0000 X   0.0000 Y   0.0000 Z
-    Strength   :     0.0000000000
-    D(    5) --> V(    2) amplitude =  0.9952
-    D(    5) --> V(    3) amplitude =  0.0845
-    D(    5) --> V(    7) amplitude =  0.0460
-
- Excited state   5: excitation energy (eV) =    9.4055
- Total energy for state  5:                   -75.90853909 au
-    Multiplicity: Singlet
-    Trans. Mom.:  0.0000 X   0.0000 Y   0.0000 Z
-    Strength   :     0.0000000000
-    D(    5) --> V(    2) amplitude =  0.9983
-    D(    5) --> V(    3) amplitude =  0.0498
-    D(    5) --> V(    7) amplitude =  0.0301
-
- Excited state   6: excitation energy (eV) =    9.9473
- Total energy for state  6:                   -75.88862777 au
-    Multiplicity: Singlet
-    Trans. Mom.:  0.0000 X  -0.0000 Y   0.6203 Z
-    Strength   :     0.0937778554
-    D(    2) --> V(    1) amplitude = -0.0321
-    D(    2) --> V(    4) amplitude = -0.0198
-    D(    3) --> V(    2) amplitude = -0.1256
-    D(    3) --> V(    3) amplitude = -0.0381
-    D(    3) --> V(    7) amplitude = -0.0202
-    D(    4) --> V(    1) amplitude =  0.9893
-    D(    4) --> V(    6) amplitude =  0.0202
-    D(    5) --> V(    5) amplitude =  0.0383
-
- Excited state   7: excitation energy (eV) =   10.6109
- Total energy for state  7:                   -75.86424012 au
-    Multiplicity: Triplet
-    Trans. Mom.:  0.0000 X   0.0000 Y   0.0000 Z
-    Strength   :     0.0000000000
-    D(    3) --> V(    1) amplitude =  0.2375
-    D(    3) --> V(    4) amplitude =  0.0419
-    D(    4) --> V(    2) amplitude =  0.9636
-    D(    4) --> V(    3) amplitude =  0.1062
-    D(    4) --> V(    7) amplitude =  0.0375
-
- Excited state   8: excitation energy (eV) =   11.9246
- Total energy for state  8:                   -75.81596306 au
-    Multiplicity: Singlet
-    Trans. Mom.:  0.5289 X  -0.0000 Y   0.0000 Z
-    Strength   :     0.0817118629
-    D(    2) --> V(    2) amplitude =  0.0236
-    D(    3) --> V(    1) amplitude = -0.1433
-    D(    3) --> V(    4) amplitude = -0.0434
-    D(    4) --> V(    2) amplitude =  0.9876
-    D(    4) --> V(    3) amplitude = -0.0167
-    D(    4) --> V(    7) amplitude =  0.0285
-    D(    5) --> V(   10) amplitude =  0.0157
-
- Excited state   9: excitation energy (eV) =   12.5309
- Total energy for state  9:                   -75.79368004 au
-    Multiplicity: Triplet
-    Trans. Mom.:  0.0000 X   0.0000 Y   0.0000 Z
-    Strength   :     0.0000000000
-    D(    2) --> V(    2) amplitude =  0.0475
-    D(    2) --> V(    3) amplitude =  0.0157
-    D(    2) --> V(    7) amplitude =  0.0163
-    D(    3) --> V(    1) amplitude =  0.9652
-    D(    3) --> V(    4) amplitude =  0.0788
-    D(    3) --> V(    8) amplitude =  0.0238
-    D(    4) --> V(    2) amplitude = -0.2420
-
- Excited state  10: excitation energy (eV) =   13.8597
- Total energy for state 10:                   -75.74484789 au
-    Multiplicity: Singlet
-    Trans. Mom.:  1.0224 X  -0.0000 Y  -0.0000 Z
-    Strength   :     0.3549457932
-    D(    2) --> V(    3) amplitude = -0.0180
-    D(    3) --> V(    1) amplitude =  0.9874
-    D(    3) --> V(    4) amplitude = -0.0259
-    D(    3) --> V(    6) amplitude = -0.0146
-    D(    4) --> V(    2) amplitude =  0.1410
-    D(    4) --> V(    3) amplitude = -0.0603
-
- ---------------------------------------------------
 
  Direct TDDFT calculation will be performed
  Exchange:     0.2500 Hartree-Fock + 0.7500 PBE
@@ -325,33 +191,40 @@ $end
  ---------------------------------------------------
  Iter    Rts Conv    Rts Left    Ttl Dev     Max Dev
  ---------------------------------------------------
-   1         0           5      0.000913    0.000304
-   2         0           5      0.000850    0.000436
-   3         0           5      0.000065    0.000033
-   4         1           4      0.000032    0.000013
-   5         1           4      0.000034    0.000024
-   6         1           4      0.000018    0.000008
-   7         3           2      0.000011    0.000007
-   8         5           0      0.000002    0.000001    Roots Converged
+   1         0           5      0.028456    0.006439
+   2         0           5      0.003231    0.001308
+   3         0           5      0.000372    0.000246
+   4         1           4      0.000061    0.000018
+   5         1           4      0.000047    0.000023
+   6         1           4      0.000025    0.000009
+   7         1           4      0.000065    0.000023
+   8         1           4      0.000044    0.000024
+   9         4           1      0.000019    0.000017
+  10         4           1      0.000014    0.000012
+  11         4           1      0.000006    0.000004
+  12         5           0      0.000001    0.000001    Roots Converged
  ---------------------------------------------------
  Triplets done: starting singlet calculation
  ---------------------------------------------------
  Iter    Rts Conv    Rts Left    Ttl Dev     Max Dev
  ---------------------------------------------------
-   9         0           5      0.000443    0.000124
-  10         0           5      0.000868    0.000369
-  11         0           5      0.000146    0.000077
-  12         0           5      0.000044    0.000030
-  13         2           3      0.000038    0.000032
-  14         3           2      0.000010    0.000005
-  15         3           2      0.000014    0.000011
-  16         4           1      0.000008    0.000006
-  17         4           1      0.000010    0.000008
-  18         4           1      0.000003    0.000001
-  19         4           1      0.000008    0.000006
-  20         4           1      0.000005    0.000003
-  21         4           1      0.000004    0.000002
-  22         5           0      0.000003    0.000001    Roots Converged
+  13         0           5      0.032045    0.012233
+  14         0           5      0.004036    0.001797
+  15         0           5      0.000360    0.000145
+  16         0           5      0.000078    0.000044
+  17         2           3      0.000045    0.000037
+  18         3           2      0.000041    0.000026
+  19         4           1      0.000009    0.000006
+  20         4           1      0.000004    0.000002
+  21         4           1      0.000009    0.000006
+  22         4           1      0.000008    0.000005
+  23         4           1      0.000004    0.000001
+  24         4           1      0.000007    0.000004
+  25         4           1      0.000005    0.000003
+  26         4           1      0.000007    0.000005
+  27         4           1      0.000005    0.000002
+  28         4           1      0.000004    0.000001
+  29         5           0      0.000003    0.000001    Roots Converged
  ---------------------------------------------------
 
  ---------------------------------------------------
@@ -359,152 +232,1691 @@ $end
  ---------------------------------------------------
 
  Excited state   1: excitation energy (eV) =    6.7454
- Total energy for state  1:                   -76.00629365 au
+ Total energy for state  1:                   -76.00629606 au
     Multiplicity: Triplet 
     Trans. Mom.:  0.0000 X   0.0000 Y   0.0000 Z
     Strength   :     0.0000000000
+    X: D(    1) --> V(    1) amplitude =  0.0000
+    Y: D(    1) --> V(    1) amplitude =  0.0000
+    X: D(    1) --> V(    2) amplitude = -0.0000
+    Y: D(    1) --> V(    2) amplitude =  0.0000
+    X: D(    1) --> V(    3) amplitude =  0.0000
+    Y: D(    1) --> V(    3) amplitude = -0.0000
+    X: D(    1) --> V(    4) amplitude =  0.0000
+    Y: D(    1) --> V(    4) amplitude =  0.0000
+    X: D(    1) --> V(    5) amplitude = -0.0003
+    Y: D(    1) --> V(    5) amplitude = -0.0001
+    X: D(    1) --> V(    6) amplitude = -0.0000
+    Y: D(    1) --> V(    6) amplitude = -0.0000
+    X: D(    1) --> V(    7) amplitude = -0.0000
+    Y: D(    1) --> V(    7) amplitude = -0.0000
+    X: D(    1) --> V(    8) amplitude = -0.0000
+    Y: D(    1) --> V(    8) amplitude = -0.0000
+    X: D(    1) --> V(    9) amplitude = -0.0000
+    Y: D(    1) --> V(    9) amplitude =  0.0000
+    X: D(    1) --> V(   10) amplitude =  0.0000
+    Y: D(    1) --> V(   10) amplitude = -0.0000
+    X: D(    1) --> V(   11) amplitude =  0.0002
+    Y: D(    1) --> V(   11) amplitude = -0.0003
+    X: D(    1) --> V(   12) amplitude = -0.0000
+    Y: D(    1) --> V(   12) amplitude = -0.0000
+    X: D(    1) --> V(   13) amplitude =  0.0000
+    Y: D(    1) --> V(   13) amplitude =  0.0000
+    X: D(    2) --> V(    1) amplitude =  0.0000
+    Y: D(    2) --> V(    1) amplitude =  0.0000
+    X: D(    2) --> V(    2) amplitude =  0.0000
+    Y: D(    2) --> V(    2) amplitude =  0.0000
+    X: D(    2) --> V(    3) amplitude = -0.0000
+    Y: D(    2) --> V(    3) amplitude =  0.0000
+    X: D(    2) --> V(    4) amplitude =  0.0000
+    Y: D(    2) --> V(    4) amplitude =  0.0000
     X: D(    2) --> V(    5) amplitude = -0.0156
-    Y: D(    2) --> V(    5) amplitude = -0.0152
-    X: D(    5) --> V(    1) amplitude =  0.9976
-    Y: D(    5) --> V(    1) amplitude =  0.0295
+    Y: D(    2) --> V(    5) amplitude = -0.0145
+    X: D(    2) --> V(    6) amplitude = -0.0000
+    Y: D(    2) --> V(    6) amplitude = -0.0000
+    X: D(    2) --> V(    7) amplitude = -0.0000
+    Y: D(    2) --> V(    7) amplitude = -0.0000
+    X: D(    2) --> V(    8) amplitude = -0.0000
+    Y: D(    2) --> V(    8) amplitude = -0.0000
+    X: D(    2) --> V(    9) amplitude =  0.0000
+    Y: D(    2) --> V(    9) amplitude =  0.0000
+    X: D(    2) --> V(   10) amplitude =  0.0000
+    Y: D(    2) --> V(   10) amplitude =  0.0000
+    X: D(    2) --> V(   11) amplitude =  0.0078
+    Y: D(    2) --> V(   11) amplitude =  0.0065
+    X: D(    2) --> V(   12) amplitude = -0.0000
+    Y: D(    2) --> V(   12) amplitude = -0.0000
+    X: D(    2) --> V(   13) amplitude =  0.0000
+    Y: D(    2) --> V(   13) amplitude =  0.0000
+    X: D(    3) --> V(    1) amplitude =  0.0000
+    Y: D(    3) --> V(    1) amplitude =  0.0000
+    X: D(    3) --> V(    2) amplitude = -0.0000
+    Y: D(    3) --> V(    2) amplitude =  0.0000
+    X: D(    3) --> V(    3) amplitude = -0.0000
+    Y: D(    3) --> V(    3) amplitude = -0.0000
+    X: D(    3) --> V(    4) amplitude = -0.0000
+    Y: D(    3) --> V(    4) amplitude =  0.0000
+    X: D(    3) --> V(    5) amplitude =  0.0000
+    Y: D(    3) --> V(    5) amplitude = -0.0000
+    X: D(    3) --> V(    6) amplitude = -0.0000
+    Y: D(    3) --> V(    6) amplitude = -0.0000
+    X: D(    3) --> V(    7) amplitude = -0.0000
+    Y: D(    3) --> V(    7) amplitude = -0.0000
+    X: D(    3) --> V(    8) amplitude = -0.0000
+    Y: D(    3) --> V(    8) amplitude = -0.0000
+    X: D(    3) --> V(    9) amplitude = -0.0000
+    Y: D(    3) --> V(    9) amplitude = -0.0000
+    X: D(    3) --> V(   10) amplitude = -0.0034
+    Y: D(    3) --> V(   10) amplitude = -0.0023
+    X: D(    3) --> V(   11) amplitude =  0.0000
+    Y: D(    3) --> V(   11) amplitude = -0.0000
+    X: D(    3) --> V(   12) amplitude = -0.0000
+    Y: D(    3) --> V(   12) amplitude = -0.0000
+    X: D(    3) --> V(   13) amplitude = -0.0000
+    Y: D(    3) --> V(   13) amplitude =  0.0000
+    X: D(    4) --> V(    1) amplitude =  0.0000
+    Y: D(    4) --> V(    1) amplitude =  0.0000
+    X: D(    4) --> V(    2) amplitude = -0.0000
+    Y: D(    4) --> V(    2) amplitude = -0.0000
+    X: D(    4) --> V(    3) amplitude =  0.0000
+    Y: D(    4) --> V(    3) amplitude =  0.0000
+    X: D(    4) --> V(    4) amplitude =  0.0000
+    Y: D(    4) --> V(    4) amplitude =  0.0000
+    X: D(    4) --> V(    5) amplitude = -0.0027
+    Y: D(    4) --> V(    5) amplitude = -0.0094
+    X: D(    4) --> V(    6) amplitude =  0.0000
+    Y: D(    4) --> V(    6) amplitude =  0.0000
+    X: D(    4) --> V(    7) amplitude =  0.0000
+    Y: D(    4) --> V(    7) amplitude = -0.0000
+    X: D(    4) --> V(    8) amplitude = -0.0000
+    Y: D(    4) --> V(    8) amplitude = -0.0000
+    X: D(    4) --> V(    9) amplitude = -0.0000
+    Y: D(    4) --> V(    9) amplitude = -0.0000
+    X: D(    4) --> V(   10) amplitude =  0.0000
+    Y: D(    4) --> V(   10) amplitude =  0.0000
+    X: D(    4) --> V(   11) amplitude =  0.0011
+    Y: D(    4) --> V(   11) amplitude =  0.0010
+    X: D(    4) --> V(   12) amplitude =  0.0000
+    Y: D(    4) --> V(   12) amplitude =  0.0000
+    X: D(    4) --> V(   13) amplitude = -0.0000
+    Y: D(    4) --> V(   13) amplitude = -0.0000
+    X: D(    5) --> V(    1) amplitude =  0.9975
+    Y: D(    5) --> V(    1) amplitude =  0.0296
+    X: D(    5) --> V(    2) amplitude = -0.0000
+    Y: D(    5) --> V(    2) amplitude = -0.0000
+    X: D(    5) --> V(    3) amplitude =  0.0000
+    Y: D(    5) --> V(    3) amplitude =  0.0000
     X: D(    5) --> V(    4) amplitude =  0.0698
-    Y: D(    5) --> V(    4) amplitude =  0.0151
-    X: D(    5) --> V(    8) amplitude =  0.0333
+    Y: D(    5) --> V(    4) amplitude =  0.0140
+    X: D(    5) --> V(    5) amplitude = -0.0000
+    Y: D(    5) --> V(    5) amplitude = -0.0000
+    X: D(    5) --> V(    6) amplitude =  0.0082
+    Y: D(    5) --> V(    6) amplitude =  0.0001
+    X: D(    5) --> V(    7) amplitude =  0.0000
+    Y: D(    5) --> V(    7) amplitude =  0.0000
+    X: D(    5) --> V(    8) amplitude = -0.0333
+    Y: D(    5) --> V(    8) amplitude = -0.0083
+    X: D(    5) --> V(    9) amplitude = -0.0014
+    Y: D(    5) --> V(    9) amplitude = -0.0017
+    X: D(    5) --> V(   10) amplitude =  0.0000
+    Y: D(    5) --> V(   10) amplitude =  0.0000
+    X: D(    5) --> V(   11) amplitude = -0.0000
+    Y: D(    5) --> V(   11) amplitude =  0.0000
+    X: D(    5) --> V(   12) amplitude = -0.0075
+    Y: D(    5) --> V(   12) amplitude = -0.0060
+    X: D(    5) --> V(   13) amplitude =  0.0000
+    Y: D(    5) --> V(   13) amplitude = -0.0000
 
- Excited state   2: excitation energy (eV) =    7.4961
- Total energy for state  2:                   -75.97870756 au
+ Excited state   2: excitation energy (eV) =    7.4978
+ Total energy for state  2:                   -75.97864626 au
     Multiplicity: Singlet 
-    Trans. Mom.: -0.0000 X   0.2819 Y  -0.0000 Z
-    Strength   :     0.0145953051
+    Trans. Mom.: -0.0000 X   0.2823 Y  -0.0000 Z
+    Strength   :     0.0146437451
+    X: D(    1) --> V(    1) amplitude =  0.0000
+    Y: D(    1) --> V(    1) amplitude = -0.0000
+    X: D(    1) --> V(    2) amplitude =  0.0000
+    Y: D(    1) --> V(    2) amplitude =  0.0000
+    X: D(    1) --> V(    3) amplitude =  0.0000
+    Y: D(    1) --> V(    3) amplitude = -0.0000
+    X: D(    1) --> V(    4) amplitude =  0.0000
+    Y: D(    1) --> V(    4) amplitude = -0.0000
+    X: D(    1) --> V(    5) amplitude =  0.0006
+    Y: D(    1) --> V(    5) amplitude =  0.0008
+    X: D(    1) --> V(    6) amplitude = -0.0000
+    Y: D(    1) --> V(    6) amplitude =  0.0000
+    X: D(    1) --> V(    7) amplitude = -0.0000
+    Y: D(    1) --> V(    7) amplitude =  0.0000
+    X: D(    1) --> V(    8) amplitude = -0.0000
+    Y: D(    1) --> V(    8) amplitude =  0.0000
+    X: D(    1) --> V(    9) amplitude =  0.0000
+    Y: D(    1) --> V(    9) amplitude = -0.0000
+    X: D(    1) --> V(   10) amplitude =  0.0000
+    Y: D(    1) --> V(   10) amplitude =  0.0000
+    X: D(    1) --> V(   11) amplitude =  0.0000
+    Y: D(    1) --> V(   11) amplitude = -0.0001
+    X: D(    1) --> V(   12) amplitude = -0.0000
+    Y: D(    1) --> V(   12) amplitude =  0.0000
+    X: D(    1) --> V(   13) amplitude =  0.0000
+    Y: D(    1) --> V(   13) amplitude = -0.0000
+    X: D(    2) --> V(    1) amplitude =  0.0000
+    Y: D(    2) --> V(    1) amplitude =  0.0000
+    X: D(    2) --> V(    2) amplitude =  0.0000
+    Y: D(    2) --> V(    2) amplitude = -0.0000
+    X: D(    2) --> V(    3) amplitude =  0.0000
+    Y: D(    2) --> V(    3) amplitude = -0.0000
+    X: D(    2) --> V(    4) amplitude =  0.0000
+    Y: D(    2) --> V(    4) amplitude = -0.0000
+    X: D(    2) --> V(    5) amplitude =  0.0069
+    Y: D(    2) --> V(    5) amplitude =  0.0057
+    X: D(    2) --> V(    6) amplitude = -0.0000
+    Y: D(    2) --> V(    6) amplitude =  0.0000
+    X: D(    2) --> V(    7) amplitude = -0.0000
+    Y: D(    2) --> V(    7) amplitude =  0.0000
+    X: D(    2) --> V(    8) amplitude = -0.0000
+    Y: D(    2) --> V(    8) amplitude =  0.0000
+    X: D(    2) --> V(    9) amplitude =  0.0000
+    Y: D(    2) --> V(    9) amplitude = -0.0000
+    X: D(    2) --> V(   10) amplitude = -0.0000
+    Y: D(    2) --> V(   10) amplitude = -0.0000
+    X: D(    2) --> V(   11) amplitude = -0.0044
+    Y: D(    2) --> V(   11) amplitude = -0.0013
+    X: D(    2) --> V(   12) amplitude =  0.0000
+    Y: D(    2) --> V(   12) amplitude = -0.0000
+    X: D(    2) --> V(   13) amplitude =  0.0000
+    Y: D(    2) --> V(   13) amplitude =  0.0000
+    X: D(    3) --> V(    1) amplitude = -0.0000
+    Y: D(    3) --> V(    1) amplitude =  0.0000
+    X: D(    3) --> V(    2) amplitude =  0.0000
+    Y: D(    3) --> V(    2) amplitude = -0.0000
+    X: D(    3) --> V(    3) amplitude = -0.0000
+    Y: D(    3) --> V(    3) amplitude = -0.0000
+    X: D(    3) --> V(    4) amplitude = -0.0000
+    Y: D(    3) --> V(    4) amplitude =  0.0000
+    X: D(    3) --> V(    5) amplitude =  0.0000
+    Y: D(    3) --> V(    5) amplitude = -0.0000
+    X: D(    3) --> V(    6) amplitude = -0.0000
+    Y: D(    3) --> V(    6) amplitude =  0.0000
+    X: D(    3) --> V(    7) amplitude = -0.0000
+    Y: D(    3) --> V(    7) amplitude =  0.0000
+    X: D(    3) --> V(    8) amplitude =  0.0000
+    Y: D(    3) --> V(    8) amplitude = -0.0000
+    X: D(    3) --> V(    9) amplitude =  0.0000
+    Y: D(    3) --> V(    9) amplitude =  0.0000
+    X: D(    3) --> V(   10) amplitude =  0.0071
+    Y: D(    3) --> V(   10) amplitude =  0.0060
+    X: D(    3) --> V(   11) amplitude = -0.0000
+    Y: D(    3) --> V(   11) amplitude = -0.0000
+    X: D(    3) --> V(   12) amplitude = -0.0000
+    Y: D(    3) --> V(   12) amplitude =  0.0000
+    X: D(    3) --> V(   13) amplitude = -0.0000
+    Y: D(    3) --> V(   13) amplitude = -0.0000
+    X: D(    4) --> V(    1) amplitude =  0.0000
+    Y: D(    4) --> V(    1) amplitude =  0.0000
+    X: D(    4) --> V(    2) amplitude = -0.0000
+    Y: D(    4) --> V(    2) amplitude = -0.0000
+    X: D(    4) --> V(    3) amplitude =  0.0000
+    Y: D(    4) --> V(    3) amplitude =  0.0000
+    X: D(    4) --> V(    4) amplitude =  0.0000
+    Y: D(    4) --> V(    4) amplitude = -0.0000
+    X: D(    4) --> V(    5) amplitude = -0.0017
+    Y: D(    4) --> V(    5) amplitude = -0.0081
+    X: D(    4) --> V(    6) amplitude =  0.0000
+    Y: D(    4) --> V(    6) amplitude =  0.0000
+    X: D(    4) --> V(    7) amplitude =  0.0000
+    Y: D(    4) --> V(    7) amplitude =  0.0000
+    X: D(    4) --> V(    8) amplitude = -0.0000
+    Y: D(    4) --> V(    8) amplitude =  0.0000
+    X: D(    4) --> V(    9) amplitude =  0.0000
+    Y: D(    4) --> V(    9) amplitude = -0.0000
+    X: D(    4) --> V(   10) amplitude = -0.0000
+    Y: D(    4) --> V(   10) amplitude = -0.0000
+    X: D(    4) --> V(   11) amplitude = -0.0062
+    Y: D(    4) --> V(   11) amplitude = -0.0051
+    X: D(    4) --> V(   12) amplitude =  0.0000
+    Y: D(    4) --> V(   12) amplitude = -0.0000
+    X: D(    4) --> V(   13) amplitude =  0.0000
+    Y: D(    4) --> V(   13) amplitude = -0.0000
     X: D(    5) --> V(    1) amplitude =  0.9999
-    Y: D(    5) --> V(    1) amplitude = -0.0217
-    X: D(    5) --> V(    4) amplitude =  0.0212
-    Y: D(    5) --> V(    4) amplitude = -0.0162
-    X: D(    5) --> V(    6) amplitude = -0.0145
-    X: D(    5) --> V(    8) amplitude =  0.0168
+    Y: D(    5) --> V(    1) amplitude = -0.0218
+    X: D(    5) --> V(    2) amplitude = -0.0000
+    Y: D(    5) --> V(    2) amplitude = -0.0000
+    X: D(    5) --> V(    3) amplitude =  0.0000
+    Y: D(    5) --> V(    3) amplitude = -0.0000
+    X: D(    5) --> V(    4) amplitude =  0.0211
+    Y: D(    5) --> V(    4) amplitude = -0.0147
+    X: D(    5) --> V(    5) amplitude = -0.0000
+    Y: D(    5) --> V(    5) amplitude =  0.0000
+    X: D(    5) --> V(    6) amplitude =  0.0144
+    Y: D(    5) --> V(    6) amplitude =  0.0020
+    X: D(    5) --> V(    7) amplitude = -0.0000
+    Y: D(    5) --> V(    7) amplitude =  0.0000
+    X: D(    5) --> V(    8) amplitude = -0.0168
+    Y: D(    5) --> V(    8) amplitude =  0.0010
+    X: D(    5) --> V(    9) amplitude =  0.0039
+    Y: D(    5) --> V(    9) amplitude =  0.0017
+    X: D(    5) --> V(   10) amplitude = -0.0000
+    Y: D(    5) --> V(   10) amplitude = -0.0000
+    X: D(    5) --> V(   11) amplitude =  0.0000
+    Y: D(    5) --> V(   11) amplitude = -0.0000
+    X: D(    5) --> V(   12) amplitude =  0.0079
+    Y: D(    5) --> V(   12) amplitude =  0.0064
+    X: D(    5) --> V(   13) amplitude =  0.0000
+    Y: D(    5) --> V(   13) amplitude =  0.0000
 
- Excited state   3: excitation energy (eV) =    8.6528
- Total energy for state  3:                   -75.93619754 au
+ Excited state   3: excitation energy (eV) =    8.6591
+ Total energy for state  3:                   -75.93596759 au
     Multiplicity: Triplet 
     Trans. Mom.:  0.0000 X   0.0000 Y   0.0000 Z
     Strength   :     0.0000000000
-    X: D(    2) --> V(    1) amplitude =  0.0400
-    Y: D(    2) --> V(    1) amplitude =  0.0204
-    X: D(    2) --> V(    4) amplitude =  0.0206
-    X: D(    3) --> V(    2) amplitude =  0.0909
-    Y: D(    3) --> V(    2) amplitude =  0.0244
-    X: D(    3) --> V(    3) amplitude =  0.0309
-    Y: D(    3) --> V(    3) amplitude =  0.0156
+    X: D(    1) --> V(    1) amplitude =  0.0002
+    Y: D(    1) --> V(    1) amplitude = -0.0000
+    X: D(    1) --> V(    2) amplitude = -0.0000
+    Y: D(    1) --> V(    2) amplitude = -0.0000
+    X: D(    1) --> V(    3) amplitude =  0.0000
+    Y: D(    1) --> V(    3) amplitude =  0.0000
+    X: D(    1) --> V(    4) amplitude =  0.0002
+    Y: D(    1) --> V(    4) amplitude =  0.0000
+    X: D(    1) --> V(    5) amplitude =  0.0000
+    Y: D(    1) --> V(    5) amplitude = -0.0000
+    X: D(    1) --> V(    6) amplitude =  0.0000
+    Y: D(    1) --> V(    6) amplitude = -0.0000
+    X: D(    1) --> V(    7) amplitude = -0.0000
+    Y: D(    1) --> V(    7) amplitude = -0.0000
+    X: D(    1) --> V(    8) amplitude = -0.0003
+    Y: D(    1) --> V(    8) amplitude = -0.0000
+    X: D(    1) --> V(    9) amplitude =  0.0002
+    Y: D(    1) --> V(    9) amplitude =  0.0000
+    X: D(    1) --> V(   10) amplitude =  0.0000
+    Y: D(    1) --> V(   10) amplitude =  0.0000
+    X: D(    1) --> V(   11) amplitude = -0.0000
+    Y: D(    1) --> V(   11) amplitude =  0.0000
+    X: D(    1) --> V(   12) amplitude =  0.0001
+    Y: D(    1) --> V(   12) amplitude =  0.0000
+    X: D(    1) --> V(   13) amplitude = -0.0000
+    Y: D(    1) --> V(   13) amplitude = -0.0000
+    X: D(    2) --> V(    1) amplitude =  0.0398
+    Y: D(    2) --> V(    1) amplitude =  0.0155
+    X: D(    2) --> V(    2) amplitude = -0.0000
+    Y: D(    2) --> V(    2) amplitude =  0.0000
+    X: D(    2) --> V(    3) amplitude =  0.0000
+    Y: D(    2) --> V(    3) amplitude = -0.0000
+    X: D(    2) --> V(    4) amplitude =  0.0205
+    Y: D(    2) --> V(    4) amplitude =  0.0126
+    X: D(    2) --> V(    5) amplitude = -0.0000
+    Y: D(    2) --> V(    5) amplitude = -0.0000
+    X: D(    2) --> V(    6) amplitude =  0.0081
+    Y: D(    2) --> V(    6) amplitude =  0.0034
+    X: D(    2) --> V(    7) amplitude = -0.0000
+    Y: D(    2) --> V(    7) amplitude = -0.0000
+    X: D(    2) --> V(    8) amplitude = -0.0069
+    Y: D(    2) --> V(    8) amplitude = -0.0047
+    X: D(    2) --> V(    9) amplitude =  0.0072
+    Y: D(    2) --> V(    9) amplitude =  0.0009
+    X: D(    2) --> V(   10) amplitude =  0.0000
+    Y: D(    2) --> V(   10) amplitude = -0.0000
+    X: D(    2) --> V(   11) amplitude = -0.0000
+    Y: D(    2) --> V(   11) amplitude = -0.0000
+    X: D(    2) --> V(   12) amplitude =  0.0036
+    Y: D(    2) --> V(   12) amplitude =  0.0011
+    X: D(    2) --> V(   13) amplitude = -0.0000
+    Y: D(    2) --> V(   13) amplitude = -0.0000
+    X: D(    3) --> V(    1) amplitude =  0.0000
+    Y: D(    3) --> V(    1) amplitude =  0.0000
+    X: D(    3) --> V(    2) amplitude = -0.0914
+    Y: D(    3) --> V(    2) amplitude = -0.0246
+    X: D(    3) --> V(    3) amplitude =  0.0312
+    Y: D(    3) --> V(    3) amplitude =  0.0148
+    X: D(    3) --> V(    4) amplitude = -0.0000
+    Y: D(    3) --> V(    4) amplitude =  0.0000
+    X: D(    3) --> V(    5) amplitude =  0.0000
+    Y: D(    3) --> V(    5) amplitude =  0.0000
+    X: D(    3) --> V(    6) amplitude =  0.0000
+    Y: D(    3) --> V(    6) amplitude =  0.0000
+    X: D(    3) --> V(    7) amplitude = -0.0066
+    Y: D(    3) --> V(    7) amplitude = -0.0035
+    X: D(    3) --> V(    8) amplitude = -0.0000
+    Y: D(    3) --> V(    8) amplitude =  0.0000
+    X: D(    3) --> V(    9) amplitude = -0.0000
+    Y: D(    3) --> V(    9) amplitude = -0.0000
+    X: D(    3) --> V(   10) amplitude =  0.0000
+    Y: D(    3) --> V(   10) amplitude = -0.0000
+    X: D(    3) --> V(   11) amplitude = -0.0000
+    Y: D(    3) --> V(   11) amplitude =  0.0000
+    X: D(    3) --> V(   12) amplitude =  0.0000
+    Y: D(    3) --> V(   12) amplitude = -0.0000
+    X: D(    3) --> V(   13) amplitude = -0.0046
+    Y: D(    3) --> V(   13) amplitude = -0.0017
     X: D(    4) --> V(    1) amplitude =  0.9927
-    Y: D(    4) --> V(    1) amplitude =  0.0399
-    X: D(    4) --> V(    4) amplitude =  0.0766
-    Y: D(    4) --> V(    4) amplitude =  0.0208
-    X: D(    4) --> V(    6) amplitude = -0.0166
-    X: D(    4) --> V(    8) amplitude =  0.0250
+    Y: D(    4) --> V(    1) amplitude =  0.0398
+    X: D(    4) --> V(    2) amplitude = -0.0000
+    Y: D(    4) --> V(    2) amplitude = -0.0000
+    X: D(    4) --> V(    3) amplitude =  0.0000
+    Y: D(    4) --> V(    3) amplitude = -0.0000
+    X: D(    4) --> V(    4) amplitude =  0.0764
+    Y: D(    4) --> V(    4) amplitude =  0.0270
+    X: D(    4) --> V(    5) amplitude = -0.0000
+    Y: D(    4) --> V(    5) amplitude =  0.0000
+    X: D(    4) --> V(    6) amplitude =  0.0163
+    Y: D(    4) --> V(    6) amplitude =  0.0085
+    X: D(    4) --> V(    7) amplitude = -0.0000
+    Y: D(    4) --> V(    7) amplitude =  0.0000
+    X: D(    4) --> V(    8) amplitude = -0.0247
+    Y: D(    4) --> V(    8) amplitude = -0.0037
+    X: D(    4) --> V(    9) amplitude = -0.0003
+    Y: D(    4) --> V(    9) amplitude =  0.0005
+    X: D(    4) --> V(   10) amplitude = -0.0000
+    Y: D(    4) --> V(   10) amplitude = -0.0000
+    X: D(    4) --> V(   11) amplitude = -0.0000
+    Y: D(    4) --> V(   11) amplitude = -0.0000
+    X: D(    4) --> V(   12) amplitude = -0.0009
+    Y: D(    4) --> V(   12) amplitude = -0.0003
+    X: D(    4) --> V(   13) amplitude =  0.0000
+    Y: D(    4) --> V(   13) amplitude = -0.0000
+    X: D(    5) --> V(    1) amplitude = -0.0000
+    Y: D(    5) --> V(    1) amplitude =  0.0000
+    X: D(    5) --> V(    2) amplitude =  0.0000
+    Y: D(    5) --> V(    2) amplitude =  0.0000
+    X: D(    5) --> V(    3) amplitude = -0.0000
+    Y: D(    5) --> V(    3) amplitude = -0.0000
+    X: D(    5) --> V(    4) amplitude = -0.0000
+    Y: D(    5) --> V(    4) amplitude = -0.0000
+    X: D(    5) --> V(    5) amplitude = -0.0015
+    Y: D(    5) --> V(    5) amplitude =  0.0016
+    X: D(    5) --> V(    6) amplitude = -0.0000
+    Y: D(    5) --> V(    6) amplitude =  0.0000
+    X: D(    5) --> V(    7) amplitude =  0.0000
+    Y: D(    5) --> V(    7) amplitude =  0.0000
+    X: D(    5) --> V(    8) amplitude = -0.0000
+    Y: D(    5) --> V(    8) amplitude =  0.0000
+    X: D(    5) --> V(    9) amplitude =  0.0000
+    Y: D(    5) --> V(    9) amplitude =  0.0000
+    X: D(    5) --> V(   10) amplitude = -0.0000
+    Y: D(    5) --> V(   10) amplitude =  0.0000
+    X: D(    5) --> V(   11) amplitude =  0.0023
+    Y: D(    5) --> V(   11) amplitude =  0.0019
+    X: D(    5) --> V(   12) amplitude = -0.0000
+    Y: D(    5) --> V(   12) amplitude = -0.0000
+    X: D(    5) --> V(   13) amplitude = -0.0000
+    Y: D(    5) --> V(   13) amplitude =  0.0000
 
- Excited state   4: excitation energy (eV) =    8.8105
- Total energy for state  4:                   -75.93040481 au
+ Excited state   4: excitation energy (eV) =    8.8099
+ Total energy for state  4:                   -75.93042559 au
     Multiplicity: Triplet 
     Trans. Mom.:  0.0000 X   0.0000 Y   0.0000 Z
     Strength   :     0.0000000000
-    X: D(    3) --> V(    5) amplitude = -0.0148
-    Y: D(    3) --> V(    5) amplitude = -0.0203
+    X: D(    1) --> V(    1) amplitude = -0.0000
+    Y: D(    1) --> V(    1) amplitude =  0.0000
+    X: D(    1) --> V(    2) amplitude = -0.0000
+    Y: D(    1) --> V(    2) amplitude = -0.0000
+    X: D(    1) --> V(    3) amplitude = -0.0000
+    Y: D(    1) --> V(    3) amplitude =  0.0000
+    X: D(    1) --> V(    4) amplitude = -0.0000
+    Y: D(    1) --> V(    4) amplitude =  0.0000
+    X: D(    1) --> V(    5) amplitude = -0.0000
+    Y: D(    1) --> V(    5) amplitude = -0.0000
+    X: D(    1) --> V(    6) amplitude = -0.0000
+    Y: D(    1) --> V(    6) amplitude =  0.0000
+    X: D(    1) --> V(    7) amplitude = -0.0000
+    Y: D(    1) --> V(    7) amplitude =  0.0000
+    X: D(    1) --> V(    8) amplitude =  0.0000
+    Y: D(    1) --> V(    8) amplitude =  0.0000
+    X: D(    1) --> V(    9) amplitude = -0.0000
+    Y: D(    1) --> V(    9) amplitude = -0.0000
+    X: D(    1) --> V(   10) amplitude =  0.0003
+    Y: D(    1) --> V(   10) amplitude =  0.0004
+    X: D(    1) --> V(   11) amplitude = -0.0000
+    Y: D(    1) --> V(   11) amplitude = -0.0000
+    X: D(    1) --> V(   12) amplitude = -0.0000
+    Y: D(    1) --> V(   12) amplitude = -0.0000
+    X: D(    1) --> V(   13) amplitude =  0.0000
+    Y: D(    1) --> V(   13) amplitude = -0.0000
+    X: D(    2) --> V(    1) amplitude = -0.0000
+    Y: D(    2) --> V(    1) amplitude =  0.0000
+    X: D(    2) --> V(    2) amplitude =  0.0000
+    Y: D(    2) --> V(    2) amplitude =  0.0000
+    X: D(    2) --> V(    3) amplitude = -0.0000
+    Y: D(    2) --> V(    3) amplitude =  0.0000
+    X: D(    2) --> V(    4) amplitude = -0.0000
+    Y: D(    2) --> V(    4) amplitude =  0.0000
+    X: D(    2) --> V(    5) amplitude = -0.0000
+    Y: D(    2) --> V(    5) amplitude =  0.0000
+    X: D(    2) --> V(    6) amplitude = -0.0000
+    Y: D(    2) --> V(    6) amplitude =  0.0000
+    X: D(    2) --> V(    7) amplitude = -0.0000
+    Y: D(    2) --> V(    7) amplitude = -0.0000
+    X: D(    2) --> V(    8) amplitude =  0.0000
+    Y: D(    2) --> V(    8) amplitude = -0.0000
+    X: D(    2) --> V(    9) amplitude = -0.0000
+    Y: D(    2) --> V(    9) amplitude =  0.0000
+    X: D(    2) --> V(   10) amplitude =  0.0106
+    Y: D(    2) --> V(   10) amplitude =  0.0082
+    X: D(    2) --> V(   11) amplitude = -0.0000
+    Y: D(    2) --> V(   11) amplitude = -0.0000
+    X: D(    2) --> V(   12) amplitude = -0.0000
+    Y: D(    2) --> V(   12) amplitude = -0.0000
+    X: D(    2) --> V(   13) amplitude =  0.0000
+    Y: D(    2) --> V(   13) amplitude =  0.0000
+    X: D(    3) --> V(    1) amplitude = -0.0000
+    Y: D(    3) --> V(    1) amplitude = -0.0000
+    X: D(    3) --> V(    2) amplitude =  0.0000
+    Y: D(    3) --> V(    2) amplitude =  0.0000
+    X: D(    3) --> V(    3) amplitude = -0.0000
+    Y: D(    3) --> V(    3) amplitude = -0.0000
+    X: D(    3) --> V(    4) amplitude = -0.0000
+    Y: D(    3) --> V(    4) amplitude =  0.0000
+    X: D(    3) --> V(    5) amplitude =  0.0148
+    Y: D(    3) --> V(    5) amplitude =  0.0192
+    X: D(    3) --> V(    6) amplitude = -0.0000
+    Y: D(    3) --> V(    6) amplitude = -0.0000
+    X: D(    3) --> V(    7) amplitude = -0.0000
+    Y: D(    3) --> V(    7) amplitude = -0.0000
+    X: D(    3) --> V(    8) amplitude =  0.0000
+    Y: D(    3) --> V(    8) amplitude =  0.0000
+    X: D(    3) --> V(    9) amplitude =  0.0000
+    Y: D(    3) --> V(    9) amplitude =  0.0000
+    X: D(    3) --> V(   10) amplitude =  0.0000
+    Y: D(    3) --> V(   10) amplitude =  0.0000
+    X: D(    3) --> V(   11) amplitude =  0.0006
+    Y: D(    3) --> V(   11) amplitude =  0.0013
+    X: D(    3) --> V(   12) amplitude =  0.0000
+    Y: D(    3) --> V(   12) amplitude = -0.0000
+    X: D(    3) --> V(   13) amplitude =  0.0000
+    Y: D(    3) --> V(   13) amplitude = -0.0000
+    X: D(    4) --> V(    1) amplitude = -0.0000
+    Y: D(    4) --> V(    1) amplitude = -0.0000
+    X: D(    4) --> V(    2) amplitude = -0.0000
+    Y: D(    4) --> V(    2) amplitude =  0.0000
+    X: D(    4) --> V(    3) amplitude = -0.0000
+    Y: D(    4) --> V(    3) amplitude = -0.0000
+    X: D(    4) --> V(    4) amplitude = -0.0000
+    Y: D(    4) --> V(    4) amplitude = -0.0000
+    X: D(    4) --> V(    5) amplitude =  0.0000
+    Y: D(    4) --> V(    5) amplitude =  0.0000
+    X: D(    4) --> V(    6) amplitude = -0.0000
+    Y: D(    4) --> V(    6) amplitude = -0.0000
+    X: D(    4) --> V(    7) amplitude =  0.0000
+    Y: D(    4) --> V(    7) amplitude =  0.0000
+    X: D(    4) --> V(    8) amplitude =  0.0000
+    Y: D(    4) --> V(    8) amplitude = -0.0000
+    X: D(    4) --> V(    9) amplitude =  0.0000
+    Y: D(    4) --> V(    9) amplitude =  0.0000
+    X: D(    4) --> V(   10) amplitude = -0.0061
+    Y: D(    4) --> V(   10) amplitude = -0.0057
+    X: D(    4) --> V(   11) amplitude =  0.0000
+    Y: D(    4) --> V(   11) amplitude =  0.0000
+    X: D(    4) --> V(   12) amplitude =  0.0000
+    Y: D(    4) --> V(   12) amplitude =  0.0000
+    X: D(    4) --> V(   13) amplitude =  0.0000
+    Y: D(    4) --> V(   13) amplitude = -0.0000
+    X: D(    5) --> V(    1) amplitude =  0.0000
+    Y: D(    5) --> V(    1) amplitude = -0.0000
     X: D(    5) --> V(    2) amplitude =  0.9955
-    Y: D(    5) --> V(    2) amplitude =  0.0204
-    X: D(    5) --> V(    3) amplitude =  0.0862
+    Y: D(    5) --> V(    2) amplitude =  0.0206
+    X: D(    5) --> V(    3) amplitude = -0.0863
+    Y: D(    5) --> V(    3) amplitude = -0.0098
+    X: D(    5) --> V(    4) amplitude =  0.0000
+    Y: D(    5) --> V(    4) amplitude =  0.0000
+    X: D(    5) --> V(    5) amplitude = -0.0000
+    Y: D(    5) --> V(    5) amplitude = -0.0000
+    X: D(    5) --> V(    6) amplitude =  0.0000
+    Y: D(    5) --> V(    6) amplitude =  0.0000
     X: D(    5) --> V(    7) amplitude =  0.0475
+    Y: D(    5) --> V(    7) amplitude =  0.0086
+    X: D(    5) --> V(    8) amplitude =  0.0000
+    Y: D(    5) --> V(    8) amplitude = -0.0000
+    X: D(    5) --> V(    9) amplitude = -0.0000
+    Y: D(    5) --> V(    9) amplitude = -0.0000
+    X: D(    5) --> V(   10) amplitude =  0.0000
+    Y: D(    5) --> V(   10) amplitude = -0.0000
+    X: D(    5) --> V(   11) amplitude = -0.0000
+    Y: D(    5) --> V(   11) amplitude =  0.0000
+    X: D(    5) --> V(   12) amplitude = -0.0000
+    Y: D(    5) --> V(   12) amplitude = -0.0000
+    X: D(    5) --> V(   13) amplitude = -0.0021
+    Y: D(    5) --> V(   13) amplitude = -0.0005
 
- Excited state   5: excitation energy (eV) =    9.3967
- Total energy for state  5:                   -75.90885994 au
+ Excited state   5: excitation energy (eV) =    9.3974
+ Total energy for state  5:                   -75.90883404 au
     Multiplicity: Singlet 
-    Trans. Mom.:  0.0000 X   0.0000 Y  -0.0000 Z
+    Trans. Mom.: -0.0000 X  -0.0000 Y   0.0000 Z
     Strength   :     0.0000000000
+    X: D(    1) --> V(    1) amplitude = -0.0000
+    Y: D(    1) --> V(    1) amplitude =  0.0000
+    X: D(    1) --> V(    2) amplitude =  0.0000
+    Y: D(    1) --> V(    2) amplitude =  0.0000
+    X: D(    1) --> V(    3) amplitude = -0.0000
+    Y: D(    1) --> V(    3) amplitude = -0.0000
+    X: D(    1) --> V(    4) amplitude = -0.0000
+    Y: D(    1) --> V(    4) amplitude =  0.0000
+    X: D(    1) --> V(    5) amplitude =  0.0000
+    Y: D(    1) --> V(    5) amplitude = -0.0000
+    X: D(    1) --> V(    6) amplitude =  0.0000
+    Y: D(    1) --> V(    6) amplitude =  0.0000
+    X: D(    1) --> V(    7) amplitude =  0.0000
+    Y: D(    1) --> V(    7) amplitude =  0.0000
+    X: D(    1) --> V(    8) amplitude =  0.0000
+    Y: D(    1) --> V(    8) amplitude =  0.0000
+    X: D(    1) --> V(    9) amplitude =  0.0000
+    Y: D(    1) --> V(    9) amplitude =  0.0000
+    X: D(    1) --> V(   10) amplitude =  0.0000
+    Y: D(    1) --> V(   10) amplitude =  0.0002
+    X: D(    1) --> V(   11) amplitude = -0.0000
+    Y: D(    1) --> V(   11) amplitude =  0.0000
+    X: D(    1) --> V(   12) amplitude =  0.0000
+    Y: D(    1) --> V(   12) amplitude = -0.0000
+    X: D(    1) --> V(   13) amplitude = -0.0000
+    Y: D(    1) --> V(   13) amplitude = -0.0000
+    X: D(    2) --> V(    1) amplitude = -0.0000
+    Y: D(    2) --> V(    1) amplitude = -0.0000
+    X: D(    2) --> V(    2) amplitude = -0.0000
+    Y: D(    2) --> V(    2) amplitude = -0.0000
+    X: D(    2) --> V(    3) amplitude = -0.0000
+    Y: D(    2) --> V(    3) amplitude = -0.0000
+    X: D(    2) --> V(    4) amplitude =  0.0000
+    Y: D(    2) --> V(    4) amplitude =  0.0000
+    X: D(    2) --> V(    5) amplitude =  0.0000
+    Y: D(    2) --> V(    5) amplitude =  0.0000
+    X: D(    2) --> V(    6) amplitude = -0.0000
+    Y: D(    2) --> V(    6) amplitude =  0.0000
+    X: D(    2) --> V(    7) amplitude = -0.0000
+    Y: D(    2) --> V(    7) amplitude =  0.0000
+    X: D(    2) --> V(    8) amplitude =  0.0000
+    Y: D(    2) --> V(    8) amplitude =  0.0000
+    X: D(    2) --> V(    9) amplitude = -0.0000
+    Y: D(    2) --> V(    9) amplitude = -0.0000
+    X: D(    2) --> V(   10) amplitude = -0.0045
+    Y: D(    2) --> V(   10) amplitude = -0.0042
+    X: D(    2) --> V(   11) amplitude =  0.0000
+    Y: D(    2) --> V(   11) amplitude = -0.0000
+    X: D(    2) --> V(   12) amplitude =  0.0000
+    Y: D(    2) --> V(   12) amplitude =  0.0000
+    X: D(    2) --> V(   13) amplitude =  0.0000
+    Y: D(    2) --> V(   13) amplitude =  0.0000
+    X: D(    3) --> V(    1) amplitude =  0.0000
+    Y: D(    3) --> V(    1) amplitude =  0.0000
+    X: D(    3) --> V(    2) amplitude =  0.0000
+    Y: D(    3) --> V(    2) amplitude =  0.0000
+    X: D(    3) --> V(    3) amplitude =  0.0000
+    Y: D(    3) --> V(    3) amplitude = -0.0000
+    X: D(    3) --> V(    4) amplitude =  0.0000
+    Y: D(    3) --> V(    4) amplitude =  0.0000
+    X: D(    3) --> V(    5) amplitude = -0.0033
+    Y: D(    3) --> V(    5) amplitude =  0.0066
+    X: D(    3) --> V(    6) amplitude =  0.0000
+    Y: D(    3) --> V(    6) amplitude = -0.0000
+    X: D(    3) --> V(    7) amplitude =  0.0000
+    Y: D(    3) --> V(    7) amplitude = -0.0000
+    X: D(    3) --> V(    8) amplitude =  0.0000
+    Y: D(    3) --> V(    8) amplitude = -0.0000
+    X: D(    3) --> V(    9) amplitude =  0.0000
+    Y: D(    3) --> V(    9) amplitude = -0.0000
+    X: D(    3) --> V(   10) amplitude =  0.0000
+    Y: D(    3) --> V(   10) amplitude = -0.0000
+    X: D(    3) --> V(   11) amplitude =  0.0002
+    Y: D(    3) --> V(   11) amplitude = -0.0014
+    X: D(    3) --> V(   12) amplitude =  0.0000
+    Y: D(    3) --> V(   12) amplitude =  0.0000
+    X: D(    3) --> V(   13) amplitude =  0.0000
+    Y: D(    3) --> V(   13) amplitude = -0.0000
+    X: D(    4) --> V(    1) amplitude =  0.0000
+    Y: D(    4) --> V(    1) amplitude = -0.0000
+    X: D(    4) --> V(    2) amplitude =  0.0000
+    Y: D(    4) --> V(    2) amplitude =  0.0000
+    X: D(    4) --> V(    3) amplitude =  0.0000
+    Y: D(    4) --> V(    3) amplitude =  0.0000
+    X: D(    4) --> V(    4) amplitude =  0.0000
+    Y: D(    4) --> V(    4) amplitude = -0.0000
+    X: D(    4) --> V(    5) amplitude =  0.0000
+    Y: D(    4) --> V(    5) amplitude =  0.0000
+    X: D(    4) --> V(    6) amplitude =  0.0000
+    Y: D(    4) --> V(    6) amplitude =  0.0000
+    X: D(    4) --> V(    7) amplitude =  0.0000
+    Y: D(    4) --> V(    7) amplitude =  0.0000
+    X: D(    4) --> V(    8) amplitude = -0.0000
+    Y: D(    4) --> V(    8) amplitude = -0.0000
+    X: D(    4) --> V(    9) amplitude =  0.0000
+    Y: D(    4) --> V(    9) amplitude =  0.0000
+    X: D(    4) --> V(   10) amplitude =  0.0023
+    Y: D(    4) --> V(   10) amplitude =  0.0019
+    X: D(    4) --> V(   11) amplitude = -0.0000
+    Y: D(    4) --> V(   11) amplitude = -0.0000
+    X: D(    4) --> V(   12) amplitude = -0.0000
+    Y: D(    4) --> V(   12) amplitude = -0.0000
+    X: D(    4) --> V(   13) amplitude = -0.0000
+    Y: D(    4) --> V(   13) amplitude =  0.0000
+    X: D(    5) --> V(    1) amplitude =  0.0000
+    Y: D(    5) --> V(    1) amplitude = -0.0000
     X: D(    5) --> V(    2) amplitude =  0.9984
-    X: D(    5) --> V(    3) amplitude =  0.0504
+    Y: D(    5) --> V(    2) amplitude = -0.0105
+    X: D(    5) --> V(    3) amplitude = -0.0503
+    Y: D(    5) --> V(    3) amplitude =  0.0066
+    X: D(    5) --> V(    4) amplitude =  0.0000
+    Y: D(    5) --> V(    4) amplitude = -0.0000
+    X: D(    5) --> V(    5) amplitude =  0.0000
+    Y: D(    5) --> V(    5) amplitude = -0.0000
+    X: D(    5) --> V(    6) amplitude =  0.0000
+    Y: D(    5) --> V(    6) amplitude = -0.0000
     X: D(    5) --> V(    7) amplitude =  0.0303
+    Y: D(    5) --> V(    7) amplitude = -0.0027
+    X: D(    5) --> V(    8) amplitude =  0.0000
+    Y: D(    5) --> V(    8) amplitude = -0.0000
+    X: D(    5) --> V(    9) amplitude =  0.0000
+    Y: D(    5) --> V(    9) amplitude =  0.0000
+    X: D(    5) --> V(   10) amplitude = -0.0000
+    Y: D(    5) --> V(   10) amplitude = -0.0000
+    X: D(    5) --> V(   11) amplitude =  0.0000
+    Y: D(    5) --> V(   11) amplitude = -0.0000
+    X: D(    5) --> V(   12) amplitude =  0.0000
+    Y: D(    5) --> V(   12) amplitude =  0.0000
+    X: D(    5) --> V(   13) amplitude = -0.0015
+    Y: D(    5) --> V(   13) amplitude = -0.0001
 
- Excited state   6: excitation energy (eV) =    9.8695
- Total energy for state  6:                   -75.89148621 au
+ Excited state   6: excitation energy (eV) =    9.8701
+ Total energy for state  6:                   -75.89146393 au
     Multiplicity: Singlet 
-    Trans. Mom.: -0.0000 X  -0.0000 Y   0.5973 Z
-    Strength   :     0.0862647790
-    X: D(    2) --> V(    1) amplitude = -0.0259
+    Trans. Mom.:  0.0000 X  -0.0000 Y  -0.5966 Z
+    Strength   :     0.0860795780
+    X: D(    1) --> V(    1) amplitude = -0.0000
+    Y: D(    1) --> V(    1) amplitude =  0.0001
+    X: D(    1) --> V(    2) amplitude = -0.0000
+    Y: D(    1) --> V(    2) amplitude =  0.0000
+    X: D(    1) --> V(    3) amplitude =  0.0000
+    Y: D(    1) --> V(    3) amplitude = -0.0000
+    X: D(    1) --> V(    4) amplitude = -0.0000
+    Y: D(    1) --> V(    4) amplitude = -0.0001
+    X: D(    1) --> V(    5) amplitude =  0.0000
+    Y: D(    1) --> V(    5) amplitude =  0.0000
+    X: D(    1) --> V(    6) amplitude = -0.0001
+    Y: D(    1) --> V(    6) amplitude = -0.0004
+    X: D(    1) --> V(    7) amplitude = -0.0000
+    Y: D(    1) --> V(    7) amplitude =  0.0000
+    X: D(    1) --> V(    8) amplitude =  0.0001
+    Y: D(    1) --> V(    8) amplitude = -0.0002
+    X: D(    1) --> V(    9) amplitude =  0.0000
+    Y: D(    1) --> V(    9) amplitude =  0.0000
+    X: D(    1) --> V(   10) amplitude = -0.0000
+    Y: D(    1) --> V(   10) amplitude =  0.0000
+    X: D(    1) --> V(   11) amplitude = -0.0000
+    Y: D(    1) --> V(   11) amplitude = -0.0000
+    X: D(    1) --> V(   12) amplitude =  0.0000
+    Y: D(    1) --> V(   12) amplitude =  0.0002
+    X: D(    1) --> V(   13) amplitude =  0.0000
+    Y: D(    1) --> V(   13) amplitude =  0.0000
+    X: D(    2) --> V(    1) amplitude = -0.0260
+    Y: D(    2) --> V(    1) amplitude = -0.0130
+    X: D(    2) --> V(    2) amplitude = -0.0000
+    Y: D(    2) --> V(    2) amplitude = -0.0000
+    X: D(    2) --> V(    3) amplitude = -0.0000
+    Y: D(    2) --> V(    3) amplitude =  0.0000
     X: D(    2) --> V(    4) amplitude = -0.0167
-    X: D(    3) --> V(    2) amplitude = -0.1019
-    Y: D(    3) --> V(    2) amplitude = -0.0243
+    Y: D(    2) --> V(    4) amplitude = -0.0083
+    X: D(    2) --> V(    5) amplitude = -0.0000
+    Y: D(    2) --> V(    5) amplitude =  0.0000
+    X: D(    2) --> V(    6) amplitude =  0.0010
+    Y: D(    2) --> V(    6) amplitude =  0.0024
+    X: D(    2) --> V(    7) amplitude = -0.0000
+    Y: D(    2) --> V(    7) amplitude =  0.0000
+    X: D(    2) --> V(    8) amplitude =  0.0103
+    Y: D(    2) --> V(    8) amplitude =  0.0067
+    X: D(    2) --> V(    9) amplitude = -0.0033
+    Y: D(    2) --> V(    9) amplitude = -0.0028
+    X: D(    2) --> V(   10) amplitude =  0.0000
+    Y: D(    2) --> V(   10) amplitude =  0.0000
+    X: D(    2) --> V(   11) amplitude =  0.0000
+    Y: D(    2) --> V(   11) amplitude = -0.0000
+    X: D(    2) --> V(   12) amplitude = -0.0004
+    Y: D(    2) --> V(   12) amplitude = -0.0002
+    X: D(    2) --> V(   13) amplitude = -0.0000
+    Y: D(    2) --> V(   13) amplitude = -0.0000
+    X: D(    3) --> V(    1) amplitude = -0.0000
+    Y: D(    3) --> V(    1) amplitude = -0.0000
+    X: D(    3) --> V(    2) amplitude =  0.1018
+    Y: D(    3) --> V(    2) amplitude =  0.0245
     X: D(    3) --> V(    3) amplitude = -0.0321
-    X: D(    3) --> V(    7) amplitude = -0.0159
+    Y: D(    3) --> V(    3) amplitude = -0.0123
+    X: D(    3) --> V(    4) amplitude =  0.0000
+    Y: D(    3) --> V(    4) amplitude =  0.0000
+    X: D(    3) --> V(    5) amplitude =  0.0000
+    Y: D(    3) --> V(    5) amplitude = -0.0000
+    X: D(    3) --> V(    6) amplitude = -0.0000
+    Y: D(    3) --> V(    6) amplitude =  0.0000
+    X: D(    3) --> V(    7) amplitude =  0.0159
+    Y: D(    3) --> V(    7) amplitude =  0.0069
+    X: D(    3) --> V(    8) amplitude = -0.0000
+    Y: D(    3) --> V(    8) amplitude =  0.0000
+    X: D(    3) --> V(    9) amplitude = -0.0000
+    Y: D(    3) --> V(    9) amplitude = -0.0000
+    X: D(    3) --> V(   10) amplitude =  0.0000
+    Y: D(    3) --> V(   10) amplitude =  0.0000
+    X: D(    3) --> V(   11) amplitude =  0.0000
+    Y: D(    3) --> V(   11) amplitude =  0.0000
+    X: D(    3) --> V(   12) amplitude =  0.0000
+    Y: D(    3) --> V(   12) amplitude = -0.0000
+    X: D(    3) --> V(   13) amplitude =  0.0019
+    Y: D(    3) --> V(   13) amplitude =  0.0002
     X: D(    4) --> V(    1) amplitude =  0.9940
     Y: D(    4) --> V(    1) amplitude = -0.0239
-    X: D(    5) --> V(    5) amplitude =  0.0300
-    Y: D(    5) --> V(    5) amplitude =  0.0143
+    X: D(    4) --> V(    2) amplitude = -0.0000
+    Y: D(    4) --> V(    2) amplitude =  0.0000
+    X: D(    4) --> V(    3) amplitude = -0.0000
+    Y: D(    4) --> V(    3) amplitude = -0.0000
+    X: D(    4) --> V(    4) amplitude =  0.0083
+    Y: D(    4) --> V(    4) amplitude = -0.0139
+    X: D(    4) --> V(    5) amplitude = -0.0000
+    Y: D(    4) --> V(    5) amplitude =  0.0000
+    X: D(    4) --> V(    6) amplitude = -0.0141
+    Y: D(    4) --> V(    6) amplitude = -0.0057
+    X: D(    4) --> V(    7) amplitude =  0.0000
+    Y: D(    4) --> V(    7) amplitude = -0.0000
+    X: D(    4) --> V(    8) amplitude = -0.0130
+    Y: D(    4) --> V(    8) amplitude =  0.0028
+    X: D(    4) --> V(    9) amplitude =  0.0025
+    Y: D(    4) --> V(    9) amplitude =  0.0022
+    X: D(    4) --> V(   10) amplitude = -0.0000
+    Y: D(    4) --> V(   10) amplitude = -0.0000
+    X: D(    4) --> V(   11) amplitude = -0.0000
+    Y: D(    4) --> V(   11) amplitude =  0.0000
+    X: D(    4) --> V(   12) amplitude = -0.0020
+    Y: D(    4) --> V(   12) amplitude = -0.0005
+    X: D(    4) --> V(   13) amplitude = -0.0000
+    Y: D(    4) --> V(   13) amplitude = -0.0000
+    X: D(    5) --> V(    1) amplitude = -0.0000
+    Y: D(    5) --> V(    1) amplitude =  0.0000
+    X: D(    5) --> V(    2) amplitude = -0.0000
+    Y: D(    5) --> V(    2) amplitude =  0.0000
+    X: D(    5) --> V(    3) amplitude = -0.0000
+    Y: D(    5) --> V(    3) amplitude = -0.0000
+    X: D(    5) --> V(    4) amplitude = -0.0000
+    Y: D(    5) --> V(    4) amplitude = -0.0000
+    X: D(    5) --> V(    5) amplitude =  0.0301
+    Y: D(    5) --> V(    5) amplitude =  0.0144
+    X: D(    5) --> V(    6) amplitude = -0.0000
+    Y: D(    5) --> V(    6) amplitude =  0.0000
+    X: D(    5) --> V(    7) amplitude = -0.0000
+    Y: D(    5) --> V(    7) amplitude = -0.0000
+    X: D(    5) --> V(    8) amplitude = -0.0000
+    Y: D(    5) --> V(    8) amplitude =  0.0000
+    X: D(    5) --> V(    9) amplitude =  0.0000
+    Y: D(    5) --> V(    9) amplitude = -0.0000
+    X: D(    5) --> V(   10) amplitude =  0.0000
+    Y: D(    5) --> V(   10) amplitude = -0.0000
+    X: D(    5) --> V(   11) amplitude =  0.0000
+    Y: D(    5) --> V(   11) amplitude =  0.0005
+    X: D(    5) --> V(   12) amplitude =  0.0000
+    Y: D(    5) --> V(   12) amplitude = -0.0000
+    X: D(    5) --> V(   13) amplitude = -0.0000
+    Y: D(    5) --> V(   13) amplitude =  0.0000
 
- Excited state   7: excitation energy (eV) =   10.5008
- Total energy for state  7:                   -75.86828738 au
+ Excited state   7: excitation energy (eV) =   10.5007
+ Total energy for state  7:                   -75.86828982 au
     Multiplicity: Triplet 
     Trans. Mom.:  0.0000 X   0.0000 Y   0.0000 Z
     Strength   :     0.0000000000
+    X: D(    1) --> V(    1) amplitude = -0.0000
+    Y: D(    1) --> V(    1) amplitude = -0.0000
+    X: D(    1) --> V(    2) amplitude =  0.0000
+    Y: D(    1) --> V(    2) amplitude = -0.0002
+    X: D(    1) --> V(    3) amplitude =  0.0001
+    Y: D(    1) --> V(    3) amplitude =  0.0001
+    X: D(    1) --> V(    4) amplitude = -0.0000
+    Y: D(    1) --> V(    4) amplitude = -0.0000
+    X: D(    1) --> V(    5) amplitude =  0.0000
+    Y: D(    1) --> V(    5) amplitude =  0.0000
+    X: D(    1) --> V(    6) amplitude =  0.0000
+    Y: D(    1) --> V(    6) amplitude =  0.0000
+    X: D(    1) --> V(    7) amplitude =  0.0001
+    Y: D(    1) --> V(    7) amplitude = -0.0000
+    X: D(    1) --> V(    8) amplitude =  0.0000
+    Y: D(    1) --> V(    8) amplitude =  0.0000
+    X: D(    1) --> V(    9) amplitude =  0.0000
+    Y: D(    1) --> V(    9) amplitude = -0.0000
+    X: D(    1) --> V(   10) amplitude =  0.0000
+    Y: D(    1) --> V(   10) amplitude = -0.0000
+    X: D(    1) --> V(   11) amplitude = -0.0000
+    Y: D(    1) --> V(   11) amplitude = -0.0000
+    X: D(    1) --> V(   12) amplitude = -0.0000
+    Y: D(    1) --> V(   12) amplitude =  0.0000
+    X: D(    1) --> V(   13) amplitude =  0.0004
+    Y: D(    1) --> V(   13) amplitude =  0.0003
+    X: D(    2) --> V(    1) amplitude = -0.0000
+    Y: D(    2) --> V(    1) amplitude = -0.0000
     X: D(    2) --> V(    2) amplitude =  0.0151
-    X: D(    3) --> V(    1) amplitude =  0.2665
-    Y: D(    3) --> V(    1) amplitude =  0.0341
-    X: D(    3) --> V(    4) amplitude =  0.0505
-    Y: D(    3) --> V(    4) amplitude =  0.0230
-    X: D(    3) --> V(    6) amplitude = -0.0153
+    Y: D(    2) --> V(    2) amplitude =  0.0046
+    X: D(    2) --> V(    3) amplitude = -0.0026
+    Y: D(    2) --> V(    3) amplitude = -0.0008
+    X: D(    2) --> V(    4) amplitude = -0.0000
+    Y: D(    2) --> V(    4) amplitude =  0.0000
+    X: D(    2) --> V(    5) amplitude =  0.0000
+    Y: D(    2) --> V(    5) amplitude =  0.0000
+    X: D(    2) --> V(    6) amplitude =  0.0000
+    Y: D(    2) --> V(    6) amplitude =  0.0000
+    X: D(    2) --> V(    7) amplitude =  0.0037
+    Y: D(    2) --> V(    7) amplitude =  0.0035
+    X: D(    2) --> V(    8) amplitude =  0.0000
+    Y: D(    2) --> V(    8) amplitude =  0.0000
+    X: D(    2) --> V(    9) amplitude =  0.0000
+    Y: D(    2) --> V(    9) amplitude = -0.0000
+    X: D(    2) --> V(   10) amplitude = -0.0000
+    Y: D(    2) --> V(   10) amplitude = -0.0000
+    X: D(    2) --> V(   11) amplitude =  0.0000
+    Y: D(    2) --> V(   11) amplitude = -0.0000
+    X: D(    2) --> V(   12) amplitude = -0.0000
+    Y: D(    2) --> V(   12) amplitude =  0.0000
+    X: D(    2) --> V(   13) amplitude =  0.0127
+    Y: D(    2) --> V(   13) amplitude =  0.0093
+    X: D(    3) --> V(    1) amplitude = -0.2664
+    Y: D(    3) --> V(    1) amplitude = -0.0341
+    X: D(    3) --> V(    2) amplitude =  0.0000
+    Y: D(    3) --> V(    2) amplitude = -0.0000
+    X: D(    3) --> V(    3) amplitude = -0.0000
+    Y: D(    3) --> V(    3) amplitude =  0.0000
+    X: D(    3) --> V(    4) amplitude = -0.0505
+    Y: D(    3) --> V(    4) amplitude = -0.0228
+    X: D(    3) --> V(    5) amplitude = -0.0000
+    Y: D(    3) --> V(    5) amplitude = -0.0000
+    X: D(    3) --> V(    6) amplitude = -0.0154
     Y: D(    3) --> V(    6) amplitude = -0.0153
+    X: D(    3) --> V(    7) amplitude =  0.0000
+    Y: D(    3) --> V(    7) amplitude =  0.0000
+    X: D(    3) --> V(    8) amplitude =  0.0035
+    Y: D(    3) --> V(    8) amplitude =  0.0013
+    X: D(    3) --> V(    9) amplitude = -0.0009
+    Y: D(    3) --> V(    9) amplitude =  0.0003
+    X: D(    3) --> V(   10) amplitude = -0.0000
+    Y: D(    3) --> V(   10) amplitude =  0.0000
+    X: D(    3) --> V(   11) amplitude =  0.0000
+    Y: D(    3) --> V(   11) amplitude =  0.0000
+    X: D(    3) --> V(   12) amplitude = -0.0007
+    Y: D(    3) --> V(   12) amplitude = -0.0006
+    X: D(    3) --> V(   13) amplitude =  0.0000
+    Y: D(    3) --> V(   13) amplitude = -0.0000
+    X: D(    4) --> V(    1) amplitude =  0.0000
+    Y: D(    4) --> V(    1) amplitude = -0.0000
     X: D(    4) --> V(    2) amplitude =  0.9568
     Y: D(    4) --> V(    2) amplitude =  0.0374
-    X: D(    4) --> V(    3) amplitude =  0.1135
-    Y: D(    4) --> V(    3) amplitude =  0.0254
+    X: D(    4) --> V(    3) amplitude = -0.1135
+    Y: D(    4) --> V(    3) amplitude = -0.0255
+    X: D(    4) --> V(    4) amplitude = -0.0000
+    Y: D(    4) --> V(    4) amplitude = -0.0000
+    X: D(    4) --> V(    5) amplitude =  0.0000
+    Y: D(    4) --> V(    5) amplitude =  0.0000
+    X: D(    4) --> V(    6) amplitude = -0.0000
+    Y: D(    4) --> V(    6) amplitude = -0.0000
     X: D(    4) --> V(    7) amplitude =  0.0392
+    Y: D(    4) --> V(    7) amplitude =  0.0071
+    X: D(    4) --> V(    8) amplitude = -0.0000
+    Y: D(    4) --> V(    8) amplitude =  0.0000
+    X: D(    4) --> V(    9) amplitude = -0.0000
+    Y: D(    4) --> V(    9) amplitude =  0.0000
+    X: D(    4) --> V(   10) amplitude =  0.0000
+    Y: D(    4) --> V(   10) amplitude =  0.0000
+    X: D(    4) --> V(   11) amplitude = -0.0000
+    Y: D(    4) --> V(   11) amplitude = -0.0000
+    X: D(    4) --> V(   12) amplitude =  0.0000
+    Y: D(    4) --> V(   12) amplitude = -0.0000
+    X: D(    4) --> V(   13) amplitude = -0.0074
+    Y: D(    4) --> V(   13) amplitude = -0.0048
+    X: D(    5) --> V(    1) amplitude =  0.0000
+    Y: D(    5) --> V(    1) amplitude = -0.0000
+    X: D(    5) --> V(    2) amplitude = -0.0000
+    Y: D(    5) --> V(    2) amplitude =  0.0000
+    X: D(    5) --> V(    3) amplitude = -0.0000
+    Y: D(    5) --> V(    3) amplitude = -0.0000
+    X: D(    5) --> V(    4) amplitude =  0.0000
+    Y: D(    5) --> V(    4) amplitude = -0.0000
+    X: D(    5) --> V(    5) amplitude =  0.0000
+    Y: D(    5) --> V(    5) amplitude =  0.0000
+    X: D(    5) --> V(    6) amplitude = -0.0000
+    Y: D(    5) --> V(    6) amplitude = -0.0000
+    X: D(    5) --> V(    7) amplitude = -0.0000
+    Y: D(    5) --> V(    7) amplitude =  0.0000
+    X: D(    5) --> V(    8) amplitude =  0.0000
+    Y: D(    5) --> V(    8) amplitude = -0.0000
+    X: D(    5) --> V(    9) amplitude = -0.0000
+    Y: D(    5) --> V(    9) amplitude =  0.0000
+    X: D(    5) --> V(   10) amplitude = -0.0038
+    Y: D(    5) --> V(   10) amplitude = -0.0018
+    X: D(    5) --> V(   11) amplitude =  0.0000
+    Y: D(    5) --> V(   11) amplitude =  0.0000
+    X: D(    5) --> V(   12) amplitude =  0.0000
+    Y: D(    5) --> V(   12) amplitude = -0.0000
+    X: D(    5) --> V(   13) amplitude = -0.0000
+    Y: D(    5) --> V(   13) amplitude = -0.0000
 
- Excited state   8: excitation energy (eV) =   11.8603
- Total energy for state  8:                   -75.81832558 au
+ Excited state   8: excitation energy (eV) =   11.8634
+ Total energy for state  8:                   -75.81821319 au
     Multiplicity: Singlet 
-    Trans. Mom.:  0.5021 X   0.0000 Y   0.0000 Z
-    Strength   :     0.0732537008
-    X: D(    2) --> V(    2) amplitude =  0.0201
-    X: D(    3) --> V(    1) amplitude = -0.1296
-    X: D(    3) --> V(    4) amplitude = -0.0391
+    Trans. Mom.:  0.5038 X   0.0000 Y  -0.0000 Z
+    Strength   :     0.0737570676
+    X: D(    1) --> V(    1) amplitude =  0.0000
+    Y: D(    1) --> V(    1) amplitude = -0.0000
+    X: D(    1) --> V(    2) amplitude =  0.0004
+    Y: D(    1) --> V(    2) amplitude =  0.0001
+    X: D(    1) --> V(    3) amplitude = -0.0003
+    Y: D(    1) --> V(    3) amplitude = -0.0000
+    X: D(    1) --> V(    4) amplitude =  0.0000
+    Y: D(    1) --> V(    4) amplitude = -0.0000
+    X: D(    1) --> V(    5) amplitude = -0.0000
+    Y: D(    1) --> V(    5) amplitude = -0.0000
+    X: D(    1) --> V(    6) amplitude = -0.0000
+    Y: D(    1) --> V(    6) amplitude =  0.0000
+    X: D(    1) --> V(    7) amplitude =  0.0007
+    Y: D(    1) --> V(    7) amplitude =  0.0001
+    X: D(    1) --> V(    8) amplitude = -0.0000
+    Y: D(    1) --> V(    8) amplitude =  0.0000
+    X: D(    1) --> V(    9) amplitude =  0.0000
+    Y: D(    1) --> V(    9) amplitude = -0.0000
+    X: D(    1) --> V(   10) amplitude =  0.0000
+    Y: D(    1) --> V(   10) amplitude =  0.0000
+    X: D(    1) --> V(   11) amplitude =  0.0000
+    Y: D(    1) --> V(   11) amplitude =  0.0000
+    X: D(    1) --> V(   12) amplitude = -0.0000
+    Y: D(    1) --> V(   12) amplitude =  0.0000
+    X: D(    1) --> V(   13) amplitude = -0.0000
+    Y: D(    1) --> V(   13) amplitude =  0.0001
+    X: D(    2) --> V(    1) amplitude =  0.0000
+    Y: D(    2) --> V(    1) amplitude =  0.0000
+    X: D(    2) --> V(    2) amplitude =  0.0202
+    Y: D(    2) --> V(    2) amplitude =  0.0076
+    X: D(    2) --> V(    3) amplitude = -0.0028
+    Y: D(    2) --> V(    3) amplitude =  0.0018
+    X: D(    2) --> V(    4) amplitude = -0.0000
+    Y: D(    2) --> V(    4) amplitude = -0.0000
+    X: D(    2) --> V(    5) amplitude =  0.0000
+    Y: D(    2) --> V(    5) amplitude =  0.0000
+    X: D(    2) --> V(    6) amplitude = -0.0000
+    Y: D(    2) --> V(    6) amplitude =  0.0000
+    X: D(    2) --> V(    7) amplitude = -0.0005
+    Y: D(    2) --> V(    7) amplitude =  0.0010
+    X: D(    2) --> V(    8) amplitude =  0.0000
+    Y: D(    2) --> V(    8) amplitude = -0.0000
+    X: D(    2) --> V(    9) amplitude = -0.0000
+    Y: D(    2) --> V(    9) amplitude =  0.0000
+    X: D(    2) --> V(   10) amplitude =  0.0000
+    Y: D(    2) --> V(   10) amplitude = -0.0000
+    X: D(    2) --> V(   11) amplitude = -0.0000
+    Y: D(    2) --> V(   11) amplitude = -0.0000
+    X: D(    2) --> V(   12) amplitude =  0.0000
+    Y: D(    2) --> V(   12) amplitude = -0.0000
+    X: D(    2) --> V(   13) amplitude = -0.0009
+    Y: D(    2) --> V(   13) amplitude = -0.0013
+    X: D(    3) --> V(    1) amplitude =  0.1296
+    Y: D(    3) --> V(    1) amplitude =  0.0020
+    X: D(    3) --> V(    2) amplitude =  0.0000
+    Y: D(    3) --> V(    2) amplitude =  0.0000
+    X: D(    3) --> V(    3) amplitude = -0.0000
+    Y: D(    3) --> V(    3) amplitude = -0.0000
+    X: D(    3) --> V(    4) amplitude =  0.0391
+    Y: D(    3) --> V(    4) amplitude =  0.0096
+    X: D(    3) --> V(    5) amplitude =  0.0000
+    Y: D(    3) --> V(    5) amplitude = -0.0000
+    X: D(    3) --> V(    6) amplitude =  0.0029
+    Y: D(    3) --> V(    6) amplitude = -0.0008
+    X: D(    3) --> V(    7) amplitude = -0.0000
+    Y: D(    3) --> V(    7) amplitude =  0.0000
+    X: D(    3) --> V(    8) amplitude =  0.0035
+    Y: D(    3) --> V(    8) amplitude =  0.0035
+    X: D(    3) --> V(    9) amplitude =  0.0080
+    Y: D(    3) --> V(    9) amplitude =  0.0054
+    X: D(    3) --> V(   10) amplitude = -0.0000
+    Y: D(    3) --> V(   10) amplitude = -0.0000
+    X: D(    3) --> V(   11) amplitude = -0.0000
+    Y: D(    3) --> V(   11) amplitude = -0.0000
+    X: D(    3) --> V(   12) amplitude = -0.0063
+    Y: D(    3) --> V(   12) amplitude = -0.0042
+    X: D(    3) --> V(   13) amplitude = -0.0000
+    Y: D(    3) --> V(   13) amplitude = -0.0000
+    X: D(    4) --> V(    1) amplitude =  0.0000
+    Y: D(    4) --> V(    1) amplitude = -0.0000
     X: D(    4) --> V(    2) amplitude =  0.9906
     Y: D(    4) --> V(    2) amplitude = -0.0212
-    Y: D(    4) --> V(    3) amplitude = -0.0214
-    X: D(    4) --> V(    7) amplitude =  0.0287
+    X: D(    4) --> V(    3) amplitude =  0.0082
+    Y: D(    4) --> V(    3) amplitude =  0.0233
+    X: D(    4) --> V(    4) amplitude =  0.0000
+    Y: D(    4) --> V(    4) amplitude = -0.0000
+    X: D(    4) --> V(    5) amplitude =  0.0000
+    Y: D(    4) --> V(    5) amplitude =  0.0000
+    X: D(    4) --> V(    6) amplitude =  0.0000
+    Y: D(    4) --> V(    6) amplitude =  0.0000
+    X: D(    4) --> V(    7) amplitude =  0.0286
+    Y: D(    4) --> V(    7) amplitude = -0.0007
+    X: D(    4) --> V(    8) amplitude =  0.0000
+    Y: D(    4) --> V(    8) amplitude = -0.0000
+    X: D(    4) --> V(    9) amplitude =  0.0000
+    Y: D(    4) --> V(    9) amplitude = -0.0000
+    X: D(    4) --> V(   10) amplitude = -0.0000
+    Y: D(    4) --> V(   10) amplitude = -0.0000
+    X: D(    4) --> V(   11) amplitude = -0.0000
+    Y: D(    4) --> V(   11) amplitude =  0.0000
+    X: D(    4) --> V(   12) amplitude =  0.0000
+    Y: D(    4) --> V(   12) amplitude = -0.0000
+    X: D(    4) --> V(   13) amplitude =  0.0079
+    Y: D(    4) --> V(   13) amplitude =  0.0064
+    X: D(    5) --> V(    1) amplitude =  0.0000
+    Y: D(    5) --> V(    1) amplitude = -0.0000
+    X: D(    5) --> V(    2) amplitude = -0.0000
+    Y: D(    5) --> V(    2) amplitude =  0.0000
+    X: D(    5) --> V(    3) amplitude =  0.0000
+    Y: D(    5) --> V(    3) amplitude = -0.0000
+    X: D(    5) --> V(    4) amplitude = -0.0000
+    Y: D(    5) --> V(    4) amplitude = -0.0000
+    X: D(    5) --> V(    5) amplitude = -0.0000
+    Y: D(    5) --> V(    5) amplitude = -0.0000
+    X: D(    5) --> V(    6) amplitude =  0.0000
+    Y: D(    5) --> V(    6) amplitude = -0.0000
+    X: D(    5) --> V(    7) amplitude =  0.0000
+    Y: D(    5) --> V(    7) amplitude = -0.0000
+    X: D(    5) --> V(    8) amplitude = -0.0000
+    Y: D(    5) --> V(    8) amplitude = -0.0000
+    X: D(    5) --> V(    9) amplitude =  0.0000
+    Y: D(    5) --> V(    9) amplitude =  0.0000
+    X: D(    5) --> V(   10) amplitude =  0.0135
+    Y: D(    5) --> V(   10) amplitude =  0.0105
+    X: D(    5) --> V(   11) amplitude = -0.0000
+    Y: D(    5) --> V(   11) amplitude = -0.0000
+    X: D(    5) --> V(   12) amplitude =  0.0000
+    Y: D(    5) --> V(   12) amplitude = -0.0000
+    X: D(    5) --> V(   13) amplitude =  0.0000
+    Y: D(    5) --> V(   13) amplitude =  0.0000
 
- Excited state   9: excitation energy (eV) =   12.4639
- Total energy for state  9:                   -75.79614516 au
+ Excited state   9: excitation energy (eV) =   12.4635
+ Total energy for state  9:                   -75.79615822 au
     Multiplicity: Triplet 
     Trans. Mom.:  0.0000 X   0.0000 Y   0.0000 Z
     Strength   :     0.0000000000
-    X: D(    2) --> V(    2) amplitude =  0.0507
-    Y: D(    2) --> V(    2) amplitude =  0.0186
+    X: D(    1) --> V(    1) amplitude = -0.0000
+    Y: D(    1) --> V(    1) amplitude = -0.0000
+    X: D(    1) --> V(    2) amplitude = -0.0002
+    Y: D(    1) --> V(    2) amplitude = -0.0000
+    X: D(    1) --> V(    3) amplitude =  0.0001
+    Y: D(    1) --> V(    3) amplitude =  0.0001
+    X: D(    1) --> V(    4) amplitude = -0.0000
+    Y: D(    1) --> V(    4) amplitude = -0.0000
+    X: D(    1) --> V(    5) amplitude = -0.0000
+    Y: D(    1) --> V(    5) amplitude =  0.0000
+    X: D(    1) --> V(    6) amplitude =  0.0000
+    Y: D(    1) --> V(    6) amplitude = -0.0000
+    X: D(    1) --> V(    7) amplitude = -0.0002
+    Y: D(    1) --> V(    7) amplitude = -0.0001
+    X: D(    1) --> V(    8) amplitude =  0.0000
+    Y: D(    1) --> V(    8) amplitude = -0.0000
+    X: D(    1) --> V(    9) amplitude =  0.0000
+    Y: D(    1) --> V(    9) amplitude =  0.0000
+    X: D(    1) --> V(   10) amplitude =  0.0000
+    Y: D(    1) --> V(   10) amplitude =  0.0000
+    X: D(    1) --> V(   11) amplitude = -0.0000
+    Y: D(    1) --> V(   11) amplitude =  0.0000
+    X: D(    1) --> V(   12) amplitude =  0.0000
+    Y: D(    1) --> V(   12) amplitude =  0.0000
+    X: D(    1) --> V(   13) amplitude = -0.0001
+    Y: D(    1) --> V(   13) amplitude = -0.0001
+    X: D(    2) --> V(    1) amplitude = -0.0000
+    Y: D(    2) --> V(    1) amplitude = -0.0000
+    X: D(    2) --> V(    2) amplitude = -0.0508
+    Y: D(    2) --> V(    2) amplitude = -0.0178
     X: D(    2) --> V(    3) amplitude =  0.0178
-    X: D(    2) --> V(    7) amplitude =  0.0178
+    Y: D(    2) --> V(    3) amplitude =  0.0092
+    X: D(    2) --> V(    4) amplitude = -0.0000
+    Y: D(    2) --> V(    4) amplitude = -0.0000
+    X: D(    2) --> V(    5) amplitude =  0.0000
+    Y: D(    2) --> V(    5) amplitude = -0.0000
+    X: D(    2) --> V(    6) amplitude = -0.0000
+    Y: D(    2) --> V(    6) amplitude =  0.0000
+    X: D(    2) --> V(    7) amplitude = -0.0178
+    Y: D(    2) --> V(    7) amplitude = -0.0116
+    X: D(    2) --> V(    8) amplitude =  0.0000
+    Y: D(    2) --> V(    8) amplitude =  0.0000
+    X: D(    2) --> V(    9) amplitude =  0.0000
+    Y: D(    2) --> V(    9) amplitude = -0.0000
+    X: D(    2) --> V(   10) amplitude =  0.0000
+    Y: D(    2) --> V(   10) amplitude =  0.0000
+    X: D(    2) --> V(   11) amplitude =  0.0000
+    Y: D(    2) --> V(   11) amplitude = -0.0000
+    X: D(    2) --> V(   12) amplitude = -0.0000
+    Y: D(    2) --> V(   12) amplitude =  0.0000
+    X: D(    2) --> V(   13) amplitude = -0.0062
+    Y: D(    2) --> V(   13) amplitude = -0.0046
     X: D(    3) --> V(    1) amplitude =  0.9581
     Y: D(    3) --> V(    1) amplitude =  0.0246
+    X: D(    3) --> V(    2) amplitude =  0.0000
+    Y: D(    3) --> V(    2) amplitude = -0.0000
+    X: D(    3) --> V(    3) amplitude = -0.0000
+    Y: D(    3) --> V(    3) amplitude =  0.0000
     X: D(    3) --> V(    4) amplitude =  0.0835
-    Y: D(    3) --> V(    4) amplitude =  0.0175
-    X: D(    3) --> V(    8) amplitude =  0.0248
-    X: D(    4) --> V(    2) amplitude = -0.2700
-    Y: D(    4) --> V(    2) amplitude =  0.0167
+    Y: D(    3) --> V(    4) amplitude =  0.0178
+    X: D(    3) --> V(    5) amplitude =  0.0000
+    Y: D(    3) --> V(    5) amplitude = -0.0000
+    X: D(    3) --> V(    6) amplitude =  0.0043
+    Y: D(    3) --> V(    6) amplitude = -0.0040
+    X: D(    3) --> V(    7) amplitude =  0.0000
+    Y: D(    3) --> V(    7) amplitude =  0.0000
+    X: D(    3) --> V(    8) amplitude = -0.0248
+    Y: D(    3) --> V(    8) amplitude = -0.0045
+    X: D(    3) --> V(    9) amplitude = -0.0016
+    Y: D(    3) --> V(    9) amplitude = -0.0013
+    X: D(    3) --> V(   10) amplitude = -0.0000
+    Y: D(    3) --> V(   10) amplitude =  0.0000
+    X: D(    3) --> V(   11) amplitude =  0.0000
+    Y: D(    3) --> V(   11) amplitude =  0.0000
+    X: D(    3) --> V(   12) amplitude =  0.0047
+    Y: D(    3) --> V(   12) amplitude =  0.0036
+    X: D(    3) --> V(   13) amplitude =  0.0000
+    Y: D(    3) --> V(   13) amplitude =  0.0000
+    X: D(    4) --> V(    1) amplitude =  0.0000
+    Y: D(    4) --> V(    1) amplitude = -0.0000
+    X: D(    4) --> V(    2) amplitude =  0.2700
+    Y: D(    4) --> V(    2) amplitude = -0.0167
+    X: D(    4) --> V(    3) amplitude =  0.0022
+    Y: D(    4) --> V(    3) amplitude =  0.0086
+    X: D(    4) --> V(    4) amplitude = -0.0000
+    Y: D(    4) --> V(    4) amplitude =  0.0000
+    X: D(    4) --> V(    5) amplitude =  0.0000
+    Y: D(    4) --> V(    5) amplitude = -0.0000
+    X: D(    4) --> V(    6) amplitude =  0.0000
+    Y: D(    4) --> V(    6) amplitude =  0.0000
+    X: D(    4) --> V(    7) amplitude =  0.0073
+    Y: D(    4) --> V(    7) amplitude = -0.0046
+    X: D(    4) --> V(    8) amplitude =  0.0000
+    Y: D(    4) --> V(    8) amplitude =  0.0000
+    X: D(    4) --> V(    9) amplitude = -0.0000
+    Y: D(    4) --> V(    9) amplitude = -0.0000
+    X: D(    4) --> V(   10) amplitude = -0.0000
+    Y: D(    4) --> V(   10) amplitude = -0.0000
+    X: D(    4) --> V(   11) amplitude = -0.0000
+    Y: D(    4) --> V(   11) amplitude =  0.0000
+    X: D(    4) --> V(   12) amplitude = -0.0000
+    Y: D(    4) --> V(   12) amplitude = -0.0000
+    X: D(    4) --> V(   13) amplitude = -0.0067
+    Y: D(    4) --> V(   13) amplitude = -0.0045
+    X: D(    5) --> V(    1) amplitude = -0.0000
+    Y: D(    5) --> V(    1) amplitude =  0.0000
+    X: D(    5) --> V(    2) amplitude =  0.0000
+    Y: D(    5) --> V(    2) amplitude = -0.0000
+    X: D(    5) --> V(    3) amplitude = -0.0000
+    Y: D(    5) --> V(    3) amplitude = -0.0000
+    X: D(    5) --> V(    4) amplitude =  0.0000
+    Y: D(    5) --> V(    4) amplitude = -0.0000
+    X: D(    5) --> V(    5) amplitude =  0.0000
+    Y: D(    5) --> V(    5) amplitude =  0.0000
+    X: D(    5) --> V(    6) amplitude = -0.0000
+    Y: D(    5) --> V(    6) amplitude =  0.0000
+    X: D(    5) --> V(    7) amplitude = -0.0000
+    Y: D(    5) --> V(    7) amplitude =  0.0000
+    X: D(    5) --> V(    8) amplitude =  0.0000
+    Y: D(    5) --> V(    8) amplitude = -0.0000
+    X: D(    5) --> V(    9) amplitude = -0.0000
+    Y: D(    5) --> V(    9) amplitude =  0.0000
+    X: D(    5) --> V(   10) amplitude = -0.0068
+    Y: D(    5) --> V(   10) amplitude = -0.0052
+    X: D(    5) --> V(   11) amplitude = -0.0000
+    Y: D(    5) --> V(   11) amplitude = -0.0000
+    X: D(    5) --> V(   12) amplitude =  0.0000
+    Y: D(    5) --> V(   12) amplitude = -0.0000
+    X: D(    5) --> V(   13) amplitude = -0.0000
+    Y: D(    5) --> V(   13) amplitude = -0.0000
 
- Excited state  10: excitation energy (eV) =   13.8093
- Total energy for state 10:                   -75.74670293 au
+ Excited state  10: excitation energy (eV) =   13.8096
+ Total energy for state 10:                   -75.74669166 au
     Multiplicity: Singlet 
-    Trans. Mom.:  0.9696 X   0.0000 Y  -0.0000 Z
-    Strength   :     0.3180338288
+    Trans. Mom.: -0.9701 X  -0.0000 Y   0.0000 Z
+    Strength   :     0.3183752098
+    X: D(    1) --> V(    1) amplitude = -0.0000
+    Y: D(    1) --> V(    1) amplitude =  0.0000
+    X: D(    1) --> V(    2) amplitude =  0.0001
+    Y: D(    1) --> V(    2) amplitude =  0.0001
+    X: D(    1) --> V(    3) amplitude = -0.0001
+    Y: D(    1) --> V(    3) amplitude = -0.0001
+    X: D(    1) --> V(    4) amplitude = -0.0000
+    Y: D(    1) --> V(    4) amplitude =  0.0000
+    X: D(    1) --> V(    5) amplitude = -0.0000
+    Y: D(    1) --> V(    5) amplitude = -0.0000
+    X: D(    1) --> V(    6) amplitude =  0.0000
+    Y: D(    1) --> V(    6) amplitude = -0.0000
+    X: D(    1) --> V(    7) amplitude =  0.0003
+    Y: D(    1) --> V(    7) amplitude =  0.0001
+    X: D(    1) --> V(    8) amplitude =  0.0000
+    Y: D(    1) --> V(    8) amplitude = -0.0000
+    X: D(    1) --> V(    9) amplitude = -0.0000
+    Y: D(    1) --> V(    9) amplitude =  0.0000
+    X: D(    1) --> V(   10) amplitude = -0.0000
+    Y: D(    1) --> V(   10) amplitude = -0.0000
+    X: D(    1) --> V(   11) amplitude = -0.0000
+    Y: D(    1) --> V(   11) amplitude =  0.0000
+    X: D(    1) --> V(   12) amplitude =  0.0000
+    Y: D(    1) --> V(   12) amplitude = -0.0000
+    X: D(    1) --> V(   13) amplitude = -0.0000
+    Y: D(    1) --> V(   13) amplitude = -0.0000
+    X: D(    2) --> V(    1) amplitude = -0.0000
+    Y: D(    2) --> V(    1) amplitude = -0.0000
+    X: D(    2) --> V(    2) amplitude =  0.0031
+    Y: D(    2) --> V(    2) amplitude =  0.0033
     X: D(    2) --> V(    3) amplitude = -0.0164
+    Y: D(    2) --> V(    3) amplitude = -0.0073
+    X: D(    2) --> V(    4) amplitude =  0.0000
+    Y: D(    2) --> V(    4) amplitude =  0.0000
+    X: D(    2) --> V(    5) amplitude = -0.0000
+    Y: D(    2) --> V(    5) amplitude =  0.0000
+    X: D(    2) --> V(    6) amplitude =  0.0000
+    Y: D(    2) --> V(    6) amplitude = -0.0000
+    X: D(    2) --> V(    7) amplitude =  0.0096
+    Y: D(    2) --> V(    7) amplitude =  0.0039
+    X: D(    2) --> V(    8) amplitude =  0.0000
+    Y: D(    2) --> V(    8) amplitude =  0.0000
+    X: D(    2) --> V(    9) amplitude =  0.0000
+    Y: D(    2) --> V(    9) amplitude = -0.0000
+    X: D(    2) --> V(   10) amplitude = -0.0000
+    Y: D(    2) --> V(   10) amplitude = -0.0000
+    X: D(    2) --> V(   11) amplitude =  0.0000
+    Y: D(    2) --> V(   11) amplitude = -0.0000
+    X: D(    2) --> V(   12) amplitude = -0.0000
+    Y: D(    2) --> V(   12) amplitude =  0.0000
+    X: D(    2) --> V(   13) amplitude =  0.0019
+    Y: D(    2) --> V(   13) amplitude =  0.0029
     X: D(    3) --> V(    1) amplitude =  0.9902
     Y: D(    3) --> V(    1) amplitude = -0.0219
-    X: D(    3) --> V(    4) amplitude = -0.0197
-    Y: D(    3) --> V(    4) amplitude = -0.0214
-    X: D(    4) --> V(    2) amplitude =  0.1289
+    X: D(    3) --> V(    2) amplitude =  0.0000
+    Y: D(    3) --> V(    2) amplitude =  0.0000
+    X: D(    3) --> V(    3) amplitude =  0.0000
+    Y: D(    3) --> V(    3) amplitude =  0.0000
+    X: D(    3) --> V(    4) amplitude = -0.0198
+    Y: D(    3) --> V(    4) amplitude = -0.0215
+    X: D(    3) --> V(    5) amplitude =  0.0000
+    Y: D(    3) --> V(    5) amplitude =  0.0000
+    X: D(    3) --> V(    6) amplitude =  0.0140
+    Y: D(    3) --> V(    6) amplitude =  0.0028
+    X: D(    3) --> V(    7) amplitude =  0.0000
+    Y: D(    3) --> V(    7) amplitude = -0.0000
+    X: D(    3) --> V(    8) amplitude = -0.0114
+    Y: D(    3) --> V(    8) amplitude =  0.0012
+    X: D(    3) --> V(    9) amplitude =  0.0003
+    Y: D(    3) --> V(    9) amplitude = -0.0001
+    X: D(    3) --> V(   10) amplitude = -0.0000
+    Y: D(    3) --> V(   10) amplitude =  0.0000
+    X: D(    3) --> V(   11) amplitude =  0.0000
+    Y: D(    3) --> V(   11) amplitude = -0.0000
+    X: D(    3) --> V(   12) amplitude = -0.0028
+    Y: D(    3) --> V(   12) amplitude = -0.0021
+    X: D(    3) --> V(   13) amplitude =  0.0000
+    Y: D(    3) --> V(   13) amplitude =  0.0000
+    X: D(    4) --> V(    1) amplitude = -0.0000
+    Y: D(    4) --> V(    1) amplitude = -0.0000
+    X: D(    4) --> V(    2) amplitude = -0.1289
+    Y: D(    4) --> V(    2) amplitude =  0.0071
     X: D(    4) --> V(    3) amplitude = -0.0541
+    Y: D(    4) --> V(    3) amplitude = -0.0124
+    X: D(    4) --> V(    4) amplitude =  0.0000
+    Y: D(    4) --> V(    4) amplitude =  0.0000
+    X: D(    4) --> V(    5) amplitude =  0.0000
+    Y: D(    4) --> V(    5) amplitude =  0.0000
+    X: D(    4) --> V(    6) amplitude = -0.0000
+    Y: D(    4) --> V(    6) amplitude =  0.0000
+    X: D(    4) --> V(    7) amplitude = -0.0060
+    Y: D(    4) --> V(    7) amplitude = -0.0038
+    X: D(    4) --> V(    8) amplitude = -0.0000
+    Y: D(    4) --> V(    8) amplitude =  0.0000
+    X: D(    4) --> V(    9) amplitude = -0.0000
+    Y: D(    4) --> V(    9) amplitude =  0.0000
+    X: D(    4) --> V(   10) amplitude =  0.0000
+    Y: D(    4) --> V(   10) amplitude = -0.0000
+    X: D(    4) --> V(   11) amplitude =  0.0000
+    Y: D(    4) --> V(   11) amplitude =  0.0000
+    X: D(    4) --> V(   12) amplitude = -0.0000
+    Y: D(    4) --> V(   12) amplitude =  0.0000
+    X: D(    4) --> V(   13) amplitude =  0.0015
+    Y: D(    4) --> V(   13) amplitude =  0.0006
+    X: D(    5) --> V(    1) amplitude =  0.0000
+    Y: D(    5) --> V(    1) amplitude =  0.0000
+    X: D(    5) --> V(    2) amplitude = -0.0000
+    Y: D(    5) --> V(    2) amplitude =  0.0000
+    X: D(    5) --> V(    3) amplitude = -0.0000
+    Y: D(    5) --> V(    3) amplitude = -0.0000
+    X: D(    5) --> V(    4) amplitude = -0.0000
+    Y: D(    5) --> V(    4) amplitude = -0.0000
+    X: D(    5) --> V(    5) amplitude =  0.0000
+    Y: D(    5) --> V(    5) amplitude =  0.0000
+    X: D(    5) --> V(    6) amplitude = -0.0000
+    Y: D(    5) --> V(    6) amplitude =  0.0000
+    X: D(    5) --> V(    7) amplitude = -0.0000
+    Y: D(    5) --> V(    7) amplitude =  0.0000
+    X: D(    5) --> V(    8) amplitude =  0.0000
+    Y: D(    5) --> V(    8) amplitude =  0.0000
+    X: D(    5) --> V(    9) amplitude = -0.0000
+    Y: D(    5) --> V(    9) amplitude = -0.0000
+    X: D(    5) --> V(   10) amplitude = -0.0006
+    Y: D(    5) --> V(   10) amplitude = -0.0005
+    X: D(    5) --> V(   11) amplitude = -0.0000
+    Y: D(    5) --> V(   11) amplitude =  0.0000
+    X: D(    5) --> V(   12) amplitude = -0.0000
+    Y: D(    5) --> V(   12) amplitude =  0.0000
+    X: D(    5) --> V(   13) amplitude = -0.0000
+    Y: D(    5) --> V(   13) amplitude = -0.0000
 
  ---------------------------------------------------
   SETman timing summary (seconds)
-  CPU time                 2.33s
+  CPU time                10.89s
   System time              0.00s
-  Wall time                2.36s
+  Wall time                2.23s
+
+
+
+*********SPIN-ORBIT COUPLING JOB BEGINS HERE*********
+
+
+
+
+
+================================================================================
+ SPIN-ORBIT COUPLING BETWEEN THE SINGLET GROUND STATE AND EXCITED TRIPLET STATES
+================================================================================
+
+SOC between the singlet ground state and excited triplet states (ms=0):
+T1(ms=0)        0.000000 -        0.000000i  cm-1
+T2(ms=0)        0.000000 +        0.000000i  cm-1
+T3(ms=0)        0.000000 +       91.324359i  cm-1
+T4(ms=0)        0.000000 -        0.000000i  cm-1
+T5(ms=0)        0.000000 +        0.000000i  cm-1
+SOC between the singlet ground state and excited triplet states (ms=1):
+T1(ms=1)       -0.000000 +       44.578829i  cm-1
+T2(ms=1)        0.000000 -        0.000000i  cm-1
+T3(ms=1)       -0.000000 +        0.000000i  cm-1
+T4(ms=1)       43.642055 +        0.000000i  cm-1
+T5(ms=1)       46.098043 +        0.000000i  cm-1
+SOC between the singlet ground state and excited triplet states (ms=-1):
+T1(ms=1)       -0.000000 -       44.578829i  cm-1
+T2(ms=1)        0.000000 +        0.000000i  cm-1
+T3(ms=1)       -0.000000 -        0.000000i  cm-1
+T4(ms=1)       43.642055 -        0.000000i  cm-1
+T5(ms=1)       46.098043 -        0.000000i  cm-1
+Total SOC between the singlet ground state and excited triplet states:
+T1       63.043985  cm-1
+T2        0.000000  cm-1
+T3       91.324359  cm-1
+T4       61.719186  cm-1
+T5       65.192477  cm-1
+
+
+================================================================================
+ SPIN-ORBIT COUPLING BETWEEN EXCITED TRIPLET STATES
+================================================================================
+
+SOC between the T1 (ms=0) state and excited triplet states (ms=1):
+T2(ms=1)       -0.000000 +       60.665415i  cm-1
+T3(ms=1)      -21.101894 -        0.000000i  cm-1
+T4(ms=1)       -0.000000 +        0.000000i  cm-1
+T5(ms=1)       -0.000000 +        0.000000i  cm-1
+
+SOC between the T1 (ms=0) state and excited triplet states (ms=-1):
+T2(ms=-1)        0.000000 +       60.665415i  cm-1
+T3(ms=-1)       21.101894 -        0.000000i  cm-1
+T4(ms=-1)        0.000000 +        0.000000i  cm-1
+T5(ms=-1)        0.000000 +        0.000000i  cm-1
+
+SOC between the T1 (ms=1) state and excited triplet states (ms=0):
+T2(ms=0)        0.000000 +       60.665415i  cm-1
+T3(ms=0)       21.101894 -        0.000000i  cm-1
+T4(ms=0)        0.000000 +        0.000000i  cm-1
+T5(ms=0)        0.000000 +        0.000000i  cm-1
+
+SOC between the T1 (ms=1) state and excited triplet states (ms=1):
+T2(ms=1)        0.000000 -        0.000000i  cm-1
+T3(ms=1)        0.000000 -        0.000000i  cm-1
+T4(ms=1)        0.000000 +       21.267442i  cm-1
+T5(ms=1)        0.000000 -       76.496980i  cm-1
+
+SOC between the T1 (ms=-1) state and excited triplet states (ms=0):
+T2(ms=0)       -0.000000 +       60.665415i  cm-1
+T3(ms=0)      -21.101894 -        0.000000i  cm-1
+T4(ms=0)       -0.000000 +        0.000000i  cm-1
+T5(ms=0)       -0.000000 +        0.000000i  cm-1
+
+SOC between the T1 (ms=-1) state and excited triplet states (ms=-1):
+T2(ms=-1)        0.000000 +        0.000000i  cm-1
+T3(ms=-1)        0.000000 +        0.000000i  cm-1
+T4(ms=-1)        0.000000 -       21.267442i  cm-1
+T5(ms=-1)        0.000000 +       76.496980i  cm-1
+
+Total SOC between the T1 state and excited triplet states:
+T2      121.330830  cm-1
+T3       42.203788  cm-1
+T4       30.076705  cm-1
+T5      108.183067  cm-1
+
+SOC between the T2 (ms=0) state and excited triplet states (ms=1):
+T3(ms=1)        0.000000 +        0.000000i  cm-1
+T4(ms=1)      -11.249499 +        0.000000i  cm-1
+T5(ms=1)      -55.347796 +        0.000000i  cm-1
+
+SOC between the T2 (ms=0) state and excited triplet states (ms=-1):
+T3(ms=-1)       -0.000000 +        0.000000i  cm-1
+T4(ms=-1)       11.249499 +        0.000000i  cm-1
+T5(ms=-1)       55.347796 +        0.000000i  cm-1
+
+SOC between the T2 (ms=1) state and excited triplet states (ms=0):
+T3(ms=0)       -0.000000 +        0.000000i  cm-1
+T4(ms=0)       11.249499 +        0.000000i  cm-1
+T5(ms=0)       55.347796 +        0.000000i  cm-1
+
+SOC between the T2 (ms=1) state and excited triplet states (ms=1):
+T3(ms=1)        0.000000 -        7.433521i  cm-1
+T4(ms=1)        0.000000 -        0.000000i  cm-1
+T5(ms=1)        0.000000 +        0.000000i  cm-1
+
+SOC between the T2 (ms=-1) state and excited triplet states (ms=0):
+T3(ms=0)        0.000000 +        0.000000i  cm-1
+T4(ms=0)      -11.249499 +        0.000000i  cm-1
+T5(ms=0)      -55.347796 +        0.000000i  cm-1
+
+SOC between the T2 (ms=-1) state and excited triplet states (ms=-1):
+T3(ms=-1)        0.000000 +        7.433521i  cm-1
+T4(ms=-1)        0.000000 +        0.000000i  cm-1
+T5(ms=-1)        0.000000 -        0.000000i  cm-1
+
+Total SOC between the T2 state and excited triplet states:
+T3       10.512586  cm-1
+T4       22.498997  cm-1
+T5      110.695592  cm-1
+
+SOC between the T3 (ms=0) state and excited triplet states (ms=1):
+T4(ms=1)        0.000000 +       58.213564i  cm-1
+T5(ms=1)        0.000000 +       16.059770i  cm-1
+
+SOC between the T3 (ms=0) state and excited triplet states (ms=-1):
+T4(ms=-1)       -0.000000 +       58.213564i  cm-1
+T5(ms=-1)       -0.000000 +       16.059770i  cm-1
+
+SOC between the T3 (ms=1) state and excited triplet states (ms=0):
+T4(ms=0)       -0.000000 +       58.213564i  cm-1
+T5(ms=0)       -0.000000 +       16.059770i  cm-1
+
+SOC between the T3 (ms=1) state and excited triplet states (ms=1):
+T4(ms=1)        0.000000 -        0.000000i  cm-1
+T5(ms=1)        0.000000 -        0.000000i  cm-1
+
+SOC between the T3 (ms=-1) state and excited triplet states (ms=0):
+T4(ms=0)        0.000000 +       58.213564i  cm-1
+T5(ms=0)        0.000000 +       16.059770i  cm-1
+
+SOC between the T3 (ms=-1) state and excited triplet states (ms=-1):
+T4(ms=-1)        0.000000 +        0.000000i  cm-1
+T5(ms=-1)        0.000000 +        0.000000i  cm-1
+
+Total SOC between the T3 state and excited triplet states:
+T4      116.427128  cm-1
+T5       32.119541  cm-1
+
+SOC between the T4 (ms=0) state and excited triplet states (ms=1):
+T5(ms=1)       -0.000000 -        0.000000i  cm-1
+
+SOC between the T4 (ms=0) state and excited triplet states (ms=-1):
+T5(ms=-1)        0.000000 -        0.000000i  cm-1
+
+SOC between the T4 (ms=1) state and excited triplet states (ms=0):
+T5(ms=0)        0.000000 -        0.000000i  cm-1
+
+SOC between the T4 (ms=1) state and excited triplet states (ms=1):
+T5(ms=1)        0.000000 -        0.000000i  cm-1
+
+SOC between the T4 (ms=-1) state and excited triplet states (ms=0):
+T5(ms=0)       -0.000000 -        0.000000i  cm-1
+
+SOC between the T4 (ms=-1) state and excited triplet states (ms=-1):
+T5(ms=-1)        0.000000 +        0.000000i  cm-1
+
+Total SOC between the T4 state and excited triplet states:
+T5        0.000000  cm-1
+
+
+
+================================================================================
+ SPIN-ORBIT COUPLING BETWEEN EXCITED SINGLET STATES AND TRIPLET STATES
+================================================================================
+
+SOC between the S1 state and excited triplet states (ms=0):
+T1(ms=0)        0.000000 -        0.000000i  cm-1
+T2(ms=0)        0.000000 -        0.000000i  cm-1
+T3(ms=0)        0.000000 +        0.000000i  cm-1
+T4(ms=0)        0.000000 +       21.399270i  cm-1
+T5(ms=0)        0.000000 -       76.259569i  cm-1
+
+SOC between the S1 state and excited triplet states (ms=1):
+T1(ms=1)        0.000000 +        0.000000i  cm-1
+T2(ms=1)       -0.000000 -       60.547636i  cm-1
+T3(ms=1)      -19.810659 +        0.000000i  cm-1
+T4(ms=1)       -0.000000 -        0.000000i  cm-1
+T5(ms=1)        0.000000 -        0.000000i  cm-1
+
+SOC between the S1 state and excited triplet states (ms=-1):
+T1(ms=-1)       -0.000000 +        0.000000i  cm-1
+T2(ms=-1)        0.000000 -       60.547636i  cm-1
+T3(ms=-1)       19.810659 +        0.000000i  cm-1
+T4(ms=-1)        0.000000 -        0.000000i  cm-1
+T5(ms=-1)       -0.000000 -        0.000000i  cm-1
+
+Total SOC between the S1 state and excited triplet states:
+T1        0.000000  cm-1
+T2       85.627289  cm-1
+T3       28.016503  cm-1
+T4       21.399270  cm-1
+T5       76.259569  cm-1
+
+SOC between the S2 state and excited triplet states (ms=0):
+T1(ms=0)        0.000000 -        0.000000i  cm-1
+T2(ms=0)        0.000000 +        7.252218i  cm-1
+T3(ms=0)        0.000000 -        0.000000i  cm-1
+T4(ms=0)        0.000000 -        0.000000i  cm-1
+T5(ms=0)        0.000000 -        0.000000i  cm-1
+
+SOC between the S2 state and excited triplet states (ms=1):
+T1(ms=1)       19.977338 +        0.000000i  cm-1
+T2(ms=1)       -0.000000 +        0.000000i  cm-1
+T3(ms=1)        0.000000 +        0.000000i  cm-1
+T4(ms=1)       -0.000000 -       58.227582i  cm-1
+T5(ms=1)       -0.000000 -       15.686668i  cm-1
+
+SOC between the S2 state and excited triplet states (ms=-1):
+T1(ms=-1)      -19.977338 +        0.000000i  cm-1
+T2(ms=-1)        0.000000 +        0.000000i  cm-1
+T3(ms=-1)       -0.000000 +        0.000000i  cm-1
+T4(ms=-1)        0.000000 -       58.227582i  cm-1
+T5(ms=-1)        0.000000 -       15.686668i  cm-1
+
+Total SOC between the S2 state and excited triplet states:
+T1       28.252222  cm-1
+T2        7.252218  cm-1
+T3        0.000000  cm-1
+T4       82.346236  cm-1
+T5       22.184298  cm-1
+
+SOC between the S3 state and excited triplet states (ms=0):
+T1(ms=0)        0.000000 +        0.000000i  cm-1
+T2(ms=0)        0.000000 +        0.000000i  cm-1
+T3(ms=0)        0.000000 +        6.096600i  cm-1
+T4(ms=0)        0.000000 -        0.000000i  cm-1
+T5(ms=0)        0.000000 +        0.000000i  cm-1
+
+SOC between the S3 state and excited triplet states (ms=1):
+T1(ms=1)        0.000000 +       60.711512i  cm-1
+T2(ms=1)        0.000000 +        0.000000i  cm-1
+T3(ms=1)        0.000000 -        0.000000i  cm-1
+T4(ms=1)      -36.091323 -        0.000000i  cm-1
+T5(ms=1)       42.907384 -        0.000000i  cm-1
+
+SOC between the S3 state and excited triplet states (ms=-1):
+T1(ms=-1)       -0.000000 +       60.711512i  cm-1
+T2(ms=-1)       -0.000000 +        0.000000i  cm-1
+T3(ms=-1)       -0.000000 -        0.000000i  cm-1
+T4(ms=-1)       36.091323 -        0.000000i  cm-1
+T5(ms=-1)      -42.907384 -        0.000000i  cm-1
+
+Total SOC between the S3 state and excited triplet states:
+T1       85.859044  cm-1
+T2        0.000000  cm-1
+T3        6.096600  cm-1
+T4       51.040839  cm-1
+T5       60.680204  cm-1
+
+SOC between the S4 state and excited triplet states (ms=0):
+T1(ms=0)        0.000000 +       10.276443i  cm-1
+T2(ms=0)        0.000000 +        0.000000i  cm-1
+T3(ms=0)        0.000000 +        0.000000i  cm-1
+T4(ms=0)        0.000000 +        0.000000i  cm-1
+T5(ms=0)        0.000000 +        0.000000i  cm-1
+
+SOC between the S4 state and excited triplet states (ms=1):
+T1(ms=1)        0.000000 +        0.000000i  cm-1
+T2(ms=1)        8.711230 +        0.000000i  cm-1
+T3(ms=1)       -0.000000 +       59.742246i  cm-1
+T4(ms=1)        0.000000 -        0.000000i  cm-1
+T5(ms=1)        0.000000 +        0.000000i  cm-1
+
+SOC between the S4 state and excited triplet states (ms=-1):
+T1(ms=-1)       -0.000000 +        0.000000i  cm-1
+T2(ms=-1)       -8.711230 +        0.000000i  cm-1
+T3(ms=-1)        0.000000 +       59.742246i  cm-1
+T4(ms=-1)       -0.000000 -        0.000000i  cm-1
+T5(ms=-1)       -0.000000 +        0.000000i  cm-1
+
+Total SOC between the S4 state and excited triplet states:
+T1       10.276443  cm-1
+T2       12.319540  cm-1
+T3       84.488295  cm-1
+T4        0.000000  cm-1
+T5        0.000000  cm-1
+
+SOC between the S5 state and excited triplet states (ms=0):
+T1(ms=0)        0.000000 +       78.385607i  cm-1
+T2(ms=0)        0.000000 -        0.000000i  cm-1
+T3(ms=0)        0.000000 -        0.000000i  cm-1
+T4(ms=0)        0.000000 -        0.000000i  cm-1
+T5(ms=0)        0.000000 -        0.000000i  cm-1
+
+SOC between the S5 state and excited triplet states (ms=1):
+T1(ms=1)       -0.000000 -        0.000000i  cm-1
+T2(ms=1)      -47.277108 -        0.000000i  cm-1
+T3(ms=1)        0.000000 -        7.873610i  cm-1
+T4(ms=1)       -0.000000 +        0.000000i  cm-1
+T5(ms=1)       -0.000000 -        0.000000i  cm-1
+
+SOC between the S5 state and excited triplet states (ms=-1):
+T1(ms=-1)        0.000000 -        0.000000i  cm-1
+T2(ms=-1)       47.277108 -        0.000000i  cm-1
+T3(ms=-1)       -0.000000 -        7.873610i  cm-1
+T4(ms=-1)        0.000000 +        0.000000i  cm-1
+T5(ms=-1)        0.000000 -        0.000000i  cm-1
+
+Total SOC between the S5 state and excited triplet states:
+T1       78.385607  cm-1
+T2       66.859928  cm-1
+T3       11.134966  cm-1
+T4        0.000000  cm-1
+T5        0.000000  cm-1
+
+
+
+            *********SOC CODE ENDS HERE*********
+
+
+
 
  --------------------------------------------------------------
              Orbital Energies (a.u.) and Symmetries
@@ -550,25 +1962,22 @@ $end
          X       0.0000      Y       0.0000      Z      -2.1881
        Tot       2.1881
     Quadrupole Moments (Debye-Ang)
-        XX      -4.2008     XY       0.0000     YY      -7.1939
+        XX      -4.2008     XY      -0.0000     YY      -7.1939
         XZ      -0.0000     YZ       0.0000     ZZ      -6.0429
     Octopole Moments (Debye-Ang^2)
-       XXX       0.0000    XXY      -0.0000    XYY      -0.0000
-       YYY       0.0000    XXZ      -1.2344    XYZ      -0.0000
+       XXX       0.0000    XXY      -0.0000    XYY       0.0000
+       YYY      -0.0000    XXZ      -1.2344    XYZ      -0.0000
        YYZ      -0.3407    XZZ       0.0000    YZZ      -0.0000
        ZZZ      -1.2453
     Hexadecapole Moments (Debye-Ang^3)
       XXXX      -6.1573   XXXY      -0.0000   XXYY      -2.1332
       XYYY      -0.0000   YYYY      -5.0728   XXXZ      -0.0000
-      XXYZ       0.0000   XYYZ      -0.0000   YYYZ      -0.0000
+      XXYZ       0.0000   XYYZ      -0.0000   YYYZ       0.0000
       XXZZ      -1.7487   XYZZ      -0.0000   YYZZ      -1.9467
-      XZZZ      -0.0000   YZZZ      -0.0000   ZZZZ      -6.2951
+      XZZZ      -0.0000   YZZZ       0.0000   ZZZZ      -6.2951
  -----------------------------------------------------------------
-Archival summary:
-1\1\Console\SP\ProcedureUnspecified\BasisUnspecified\12\huangxk\SatMar2720:39:242021SatMar2720:39:242021\0\\#,ProcedureUnspecified,BasisUnspecified,\\0,1\O\H,1,1\H,1,1,2,105\\\@
-
- Total job time:  3.13s(wall), 3.04s(cpu) 
- Sat Mar 27 20:39:24 2021
+ Total job time:  3.18s(wall), 13.63s(cpu) 
+ Thu Apr 29 16:11:33 2021
 
         *************************************************************
         *                                                           *
