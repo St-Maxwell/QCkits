@@ -16,20 +16,29 @@ module QCkits_excited_state
     integer, parameter :: cis_wavefunction = 1
     integer, parameter :: rpa_wavefunction = 2
 
+    type :: excited_states
+        real(kind=fp), dimension(:), allocatable :: e !! excitation energy
+        real(kind=fp), dimension(:), allocatable :: S2 !! <S**2>
+        real(kind=fp), dimension(:), allocatable :: f !! oscillator strength
+    contains
+        procedure, pass :: save_file
+    end type
+
 contains
 
     subroutine QCkits_extract_excitation_energy()
         !! extract excitation energy with corresponding multiplicity
 
         !! locals
-        real(kind=fp), dimension(:), allocatable :: ex_energy
-        character(len=10), dimension(:), allocatable :: multiplicity
+        type(excited_states) :: ex
         character(len=100) :: buffer
         integer :: istate, istate_tmp
         real(kind=fp) :: ex_energy_tmp
-        character(len=10) :: multiplicity_tmp
+        real(kind=fp) :: S2_tmp
+        real(kind=fp) :: f_tmp
         integer :: wf_type
         logical :: found
+        character(len=1) :: select
 
         !! wait for input
         write(output_unit,"('Select wavefunction (1: CIS, 2: RPA): ')", advance="no")
@@ -48,10 +57,11 @@ contains
 
         if (.not. found) call terminate(qckits_failure, "Excited states not found")
 
-        ex_energy = [real(kind=fp) ::]
-        multiplicity = [character(len=10) ::]
+        ex%e  = [real(kind=fp) ::]
+        ex%S2 = [real(kind=fp) ::]
+        ex%f  = [real(kind=fp) ::]
 
-        write(output_unit,"('Excitation Energy (eV)     Multiplicity')")
+        write(output_unit,"('Excitation Energy (eV)     S2')")
         istate = 0
         do
             call locate_label(found, qchem_file%get_unit(), "Excited state", rewind=.false.)
@@ -67,12 +77,27 @@ contains
 
             read(qchem_file%get_unit(),"(A)") buffer
             read(qchem_file%get_unit(),"(A)") buffer
-            read(buffer,*) multiplicity_tmp, multiplicity_tmp
+            
+            !! extract multiplicity
+            if (index(buffer, "Multiplicity") /= 0) then
+                if (index(buffer, "Singlet") /= 0) then
+                    S2_tmp = 0._fp
+                else if (index(buffer, "Triplet") /= 0) then
+                    S2_tmp = 2._fp
+                end if
+            else if (index(buffer, "<S**2>") /= 0) then
+                read(buffer(17:),*) S2_tmp
+            end if
 
-            write(output_unit,"(F14.4,15X,A)") ex_energy_tmp, trim(multiplicity_tmp)
+            read(qchem_file%get_unit(),"(A)") buffer
+            read(qchem_file%get_unit(),"(A)") buffer
+            read(buffer(17:),*) f_tmp
 
-            ex_energy = [ex_energy, ex_energy_tmp]
-            multiplicity = [multiplicity, multiplicity_tmp]
+            write(output_unit,"(F14.4,11X,F6.4)") ex_energy_tmp, S2_tmp
+
+            ex%e = [ex%e, ex_energy_tmp]
+            ex%S2 = [ex%S2, S2_tmp]
+            ex%f = [ex%f, f_tmp]
 
             istate = istate + 1
 
@@ -81,7 +106,33 @@ contains
 
         call qchem_file%close()
 
+        write(output_unit,"('Save excitation energy to file (y/n): ')",advance="no")
+        read(input_unit,*) select
+        if (select == 'y') then
+            call ex%save_file()
+        end if
+
     end subroutine QCkits_extract_excitation_energy
+
+
+    subroutine save_file(this)
+        class(excited_states), intent(in) :: this
+
+        !! locals
+        integer :: i
+        integer :: u
+
+        open(newunit=u, file="excited_states.dat", action="write")
+
+        write(u,"('Excitation Energy (eV)   <S**2>   oscillator strength')")
+        do i = 1, size(this%e)
+            write(u,"(F14.4,F17.4,F18.10)") this%e(i), this%S2(i), this%f(i)
+        end do
+
+        close(u)
+
+    end subroutine save_file
+
 
     subroutine QCkits_simplify_cis_ampl_print()
         !! read orbital pairs contribution in excited state,
